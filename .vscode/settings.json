@@ -1,0 +1,9 @@
+{
+  "html.experimental.custom.tags": [
+    "./data/svg-tags.json"
+  ],
+  "html.experimental.custom.attributes": [
+    "./data/svg-attributes.json"
+  ],
+  "css.experimental.customData": ["./data/svg-properties.json"]
+}

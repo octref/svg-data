@@ -1,0 +1,356 @@
+{
+  "properties": [
+    {
+      "name": "externalResourcesRequired",
+      "desc": "svg attribute: externalResourcesRequired"
+    },
+    {
+      "name": "requiredExtensions",
+      "desc": "svg attribute: requiredExtensions"
+    },
+    {
+      "name": "requiredFeatures",
+      "desc": "svg attribute: requiredFeatures"
+    },
+    {
+      "name": "systemLanguage",
+      "desc": "svg attribute: systemLanguage"
+    },
+    {
+      "name": "id",
+      "desc": "svg attribute: id"
+    },
+    {
+      "name": "lang",
+      "desc": "svg attribute: lang"
+    },
+    {
+      "name": "tabindex",
+      "desc": "svg attribute: tabindex"
+    },
+    {
+      "name": "xml_base",
+      "desc": "svg attribute: xml_base"
+    },
+    {
+      "name": "xml_lang",
+      "desc": "svg attribute: xml_lang"
+    },
+    {
+      "name": "xml_space",
+      "desc": "svg attribute: xml_space"
+    },
+    {
+      "name": "global",
+      "desc": "svg attribute: global"
+    },
+    {
+      "name": "animation",
+      "desc": "svg attribute: animation"
+    },
+    {
+      "name": "document",
+      "desc": "svg attribute: document"
+    },
+    {
+      "name": "graphical",
+      "desc": "svg attribute: graphical"
+    },
+    {
+      "name": "alignment-baseline",
+      "desc": "svg attribute: alignment-baseline"
+    },
+    {
+      "name": "baseline-shift",
+      "desc": "svg attribute: baseline-shift"
+    },
+    {
+      "name": "clip",
+      "desc": "svg attribute: clip"
+    },
+    {
+      "name": "clip-path",
+      "desc": "svg attribute: clip-path"
+    },
+    {
+      "name": "clip-rule",
+      "desc": "svg attribute: clip-rule"
+    },
+    {
+      "name": "color",
+      "desc": "svg attribute: color"
+    },
+    {
+      "name": "color-interpolation",
+      "desc": "svg attribute: color-interpolation"
+    },
+    {
+      "name": "color-interpolation-filters",
+      "desc": "svg attribute: color-interpolation-filters"
+    },
+    {
+      "name": "color-profile",
+      "desc": "svg attribute: color-profile"
+    },
+    {
+      "name": "color-rendering",
+      "desc": "svg attribute: color-rendering"
+    },
+    {
+      "name": "cursor",
+      "desc": "svg attribute: cursor"
+    },
+    {
+      "name": "direction",
+      "desc": "svg attribute: direction"
+    },
+    {
+      "name": "display",
+      "desc": "svg attribute: display"
+    },
+    {
+      "name": "dominant-baseline",
+      "desc": "svg attribute: dominant-baseline"
+    },
+    {
+      "name": "enable-background",
+      "desc": "svg attribute: enable-background"
+    },
+    {
+      "name": "fill",
+      "desc": "svg attribute: fill"
+    },
+    {
+      "name": "fill-opacity",
+      "desc": "svg attribute: fill-opacity"
+    },
+    {
+      "name": "fill-rule",
+      "desc": "svg attribute: fill-rule"
+    },
+    {
+      "name": "filter",
+      "desc": "svg attribute: filter"
+    },
+    {
+      "name": "flood-color",
+      "desc": "svg attribute: flood-color"
+    },
+    {
+      "name": "flood-opacity",
+      "desc": "svg attribute: flood-opacity"
+    },
+    {
+      "name": "font-family",
+      "desc": "svg attribute: font-family"
+    },
+    {
+      "name": "font-size",
+      "desc": "svg attribute: font-size"
+    },
+    {
+      "name": "font-size-adjust",
+      "desc": "svg attribute: font-size-adjust"
+    },
+    {
+      "name": "font-stretch",
+      "desc": "svg attribute: font-stretch"
+    },
+    {
+      "name": "font-style",
+      "desc": "svg attribute: font-style"
+    },
+    {
+      "name": "font-variant",
+      "desc": "svg attribute: font-variant"
+    },
+    {
+      "name": "font-weight",
+      "desc": "svg attribute: font-weight"
+    },
+    {
+      "name": "glyph-orientation-horizontal",
+      "desc": "svg attribute: glyph-orientation-horizontal"
+    },
+    {
+      "name": "glyph-orientation-vertical",
+      "desc": "svg attribute: glyph-orientation-vertical"
+    },
+    {
+      "name": "image-rendering",
+      "desc": "svg attribute: image-rendering"
+    },
+    {
+      "name": "kerning",
+      "desc": "svg attribute: kerning"
+    },
+    {
+      "name": "letter-spacing",
+      "desc": "svg attribute: letter-spacing"
+    },
+    {
+      "name": "lighting-color",
+      "desc": "svg attribute: lighting-color"
+    },
+    {
+      "name": "marker-end",
+      "desc": "svg attribute: marker-end"
+    },
+    {
+      "name": "marker-mid",
+      "desc": "svg attribute: marker-mid"
+    },
+    {
+      "name": "marker-start",
+      "desc": "svg attribute: marker-start"
+    },
+    {
+      "name": "mask",
+      "desc": "svg attribute: mask"
+    },
+    {
+      "name": "opacity",
+      "desc": "svg attribute: opacity"
+    },
+    {
+      "name": "overflow",
+      "desc": "svg attribute: overflow"
+    },
+    {
+      "name": "paint-order",
+      "desc": "svg attribute: paint-order"
+    },
+    {
+      "name": "pointer-events",
+      "desc": "svg attribute: pointer-events"
+    },
+    {
+      "name": "shape-rendering",
+      "desc": "svg attribute: shape-rendering"
+    },
+    {
+      "name": "solid-color",
+      "desc": "svg attribute: solid-color"
+    },
+    {
+      "name": "solid-opacity",
+      "desc": "svg attribute: solid-opacity"
+    },
+    {
+      "name": "stop-color",
+      "desc": "svg attribute: stop-color"
+    },
+    {
+      "name": "stop-opacity",
+      "desc": "svg attribute: stop-opacity"
+    },
+    {
+      "name": "stroke",
+      "desc": "svg attribute: stroke"
+    },
+    {
+      "name": "stroke-dasharray",
+      "desc": "svg attribute: stroke-dasharray"
+    },
+    {
+      "name": "stroke-dashoffset",
+      "desc": "svg attribute: stroke-dashoffset"
+    },
+    {
+      "name": "stroke-linecap",
+      "desc": "svg attribute: stroke-linecap"
+    },
+    {
+      "name": "stroke-linejoin",
+      "desc": "svg attribute: stroke-linejoin"
+    },
+    {
+      "name": "stroke-miterlimit",
+      "desc": "svg attribute: stroke-miterlimit"
+    },
+    {
+      "name": "stroke-opacity",
+      "desc": "svg attribute: stroke-opacity"
+    },
+    {
+      "name": "stroke-width",
+      "desc": "svg attribute: stroke-width"
+    },
+    {
+      "name": "text-anchor",
+      "desc": "svg attribute: text-anchor"
+    },
+    {
+      "name": "text-decoration",
+      "desc": "svg attribute: text-decoration"
+    },
+    {
+      "name": "text-overflow",
+      "desc": "svg attribute: text-overflow"
+    },
+    {
+      "name": "text-rendering",
+      "desc": "svg attribute: text-rendering"
+    },
+    {
+      "name": "transform",
+      "desc": "svg attribute: transform"
+    },
+    {
+      "name": "unicode-bidi",
+      "desc": "svg attribute: unicode-bidi"
+    },
+    {
+      "name": "vector-effect",
+      "desc": "svg attribute: vector-effect"
+    },
+    {
+      "name": "visibility",
+      "desc": "svg attribute: visibility"
+    },
+    {
+      "name": "white-space",
+      "desc": "svg attribute: white-space"
+    },
+    {
+      "name": "word-spacing",
+      "desc": "svg attribute: word-spacing"
+    },
+    {
+      "name": "writing-mode",
+      "desc": "svg attribute: writing-mode"
+    },
+    {
+      "name": "class",
+      "desc": "svg attribute: class"
+    },
+    {
+      "name": "style",
+      "desc": "svg attribute: style"
+    },
+    {
+      "name": "xlink_actuate",
+      "desc": "svg attribute: xlink_actuate"
+    },
+    {
+      "name": "xlink_arcrole",
+      "desc": "svg attribute: xlink_arcrole"
+    },
+    {
+      "name": "xlink_role",
+      "desc": "svg attribute: xlink_role"
+    },
+    {
+      "name": "xlink_show",
+      "desc": "svg attribute: xlink_show"
+    },
+    {
+      "name": "xlink_title",
+      "desc": "svg attribute: xlink_title"
+    },
+    {
+      "name": "xlink_type",
+      "desc": "svg attribute: xlink_type"
+    }
+  ]
+}
