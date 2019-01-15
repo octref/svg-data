@@ -1,0 +1,452 @@
+{
+  "properties": [
+    {
+      "name": "alignment-baseline",
+      "href": "https://www.w3.org/TR/SVG/text.html#AlignmentBaselineProperty"
+    },
+    {
+      "name": "baseline-shift",
+      "href": "https://www.w3.org/TR/SVG/text.html#BaselineShiftProperty"
+    },
+    {
+      "name": "color",
+      "href": "https://www.w3.org/TR/SVG/painting.html#ColorProperty"
+    },
+    {
+      "name": "color-interpolation",
+      "href": "https://www.w3.org/TR/SVG/painting.html#ColorInterpolationProperty"
+    },
+    {
+      "name": "color-rendering",
+      "href": "https://www.w3.org/TR/SVG/painting.html#ColorRenderingProperty"
+    },
+    {
+      "name": "cursor",
+      "href": "https://www.w3.org/TR/css-ui-3/#cursor"
+    },
+    {
+      "name": "dominant-baseline",
+      "href": "https://www.w3.org/TR/SVG/text.html#DominantBaselineProperty"
+    },
+    {
+      "name": "fill",
+      "href": "https://www.w3.org/TR/SVG/painting.html#FillProperty"
+    },
+    {
+      "name": "fill-opacity",
+      "href": "https://www.w3.org/TR/SVG/painting.html#FillOpacityProperty"
+    },
+    {
+      "name": "fill-rule",
+      "href": "https://www.w3.org/TR/SVG/painting.html#FillRuleProperty"
+    },
+    {
+      "name": "glyph-orientation-horizontal",
+      "href": "https://www.w3.org/TR/SVG/text.html#GlyphOrientationHorizontalProperty"
+    },
+    {
+      "name": "glyph-orientation-vertical",
+      "href": "https://www.w3.org/TR/SVG/text.html#GlyphOrientationVerticalProperty"
+    },
+    {
+      "name": "image-rendering",
+      "href": "https://www.w3.org/TR/SVG/painting.html#ImageRenderingProperty"
+    },
+    {
+      "name": "inline-size",
+      "href": "https://www.w3.org/TR/SVG/text.html#InlineSizeProperty"
+    },
+    {
+      "name": "marker",
+      "href": "https://www.w3.org/TR/SVG/painting.html#MarkerProperty"
+    },
+    {
+      "name": "marker-end",
+      "href": "https://www.w3.org/TR/SVG/painting.html#MarkerEndProperty"
+    },
+    {
+      "name": "marker-mid",
+      "href": "https://www.w3.org/TR/SVG/painting.html#MarkerMidProperty"
+    },
+    {
+      "name": "marker-start",
+      "href": "https://www.w3.org/TR/SVG/painting.html#MarkerStartProperty"
+    },
+    {
+      "name": "overflow",
+      "href": "https://www.w3.org/TR/SVG/render.html#OverflowAndClipProperties"
+    },
+    {
+      "name": "paint-order",
+      "href": "https://www.w3.org/TR/SVG/painting.html#PaintOrderProperty"
+    },
+    {
+      "name": "pointer-events",
+      "href": "https://www.w3.org/TR/SVG/interact.html#PointerEventsProperty"
+    },
+    {
+      "name": "shape-rendering",
+      "href": "https://www.w3.org/TR/SVG/painting.html#ShapeRenderingProperty"
+    },
+    {
+      "name": "stop-color",
+      "href": "https://www.w3.org/TR/SVG/pservers.html#StopColorProperty"
+    },
+    {
+      "name": "stop-opacity",
+      "href": "https://www.w3.org/TR/SVG/pservers.html#StopOpacityProperty"
+    },
+    {
+      "name": "stroke",
+      "href": "https://www.w3.org/TR/SVG/painting.html#StrokeProperty"
+    },
+    {
+      "name": "stroke-dasharray",
+      "href": "https://www.w3.org/TR/SVG/painting.html#StrokeDasharrayProperty"
+    },
+    {
+      "name": "stroke-dashoffset",
+      "href": "https://www.w3.org/TR/SVG/painting.html#StrokeDashoffsetProperty"
+    },
+    {
+      "name": "stroke-linecap",
+      "href": "https://www.w3.org/TR/SVG/painting.html#StrokeLinecapProperty"
+    },
+    {
+      "name": "stroke-linejoin",
+      "href": "https://www.w3.org/TR/SVG/painting.html#StrokeLinejoinProperty"
+    },
+    {
+      "name": "stroke-miterlimit",
+      "href": "https://www.w3.org/TR/SVG/painting.html#StrokeMiterlimitProperty"
+    },
+    {
+      "name": "stroke-opacity",
+      "href": "https://www.w3.org/TR/SVG/painting.html#StrokeOpacityProperty"
+    },
+    {
+      "name": "stroke-width",
+      "href": "https://www.w3.org/TR/SVG/painting.html#StrokeWidthProperty"
+    },
+    {
+      "name": "text-anchor",
+      "href": "https://www.w3.org/TR/SVG/text.html#TextAnchorProperty"
+    },
+    {
+      "name": "text-decoration-fill",
+      "href": "https://www.w3.org/TR/SVG/text.html#TextDecorationFillProperty"
+    },
+    {
+      "name": "text-decoration-stroke",
+      "href": "https://www.w3.org/TR/SVG/text.html#TextDecorationStrokeProperty"
+    },
+    {
+      "name": "text-rendering",
+      "href": "https://www.w3.org/TR/SVG/painting.html#TextRenderingProperty"
+    },
+    {
+      "name": "transform",
+      "href": "https://www.w3.org/TR/SVG/coords.html#TransformProperty"
+    },
+    {
+      "name": "vector-effect",
+      "href": "https://www.w3.org/TR/SVG/coords.html#VectorEffectProperty"
+    },
+    {
+      "name": "x",
+      "href": "https://www.w3.org/TR/SVG/geometry.html#XProperty"
+    },
+    {
+      "name": "y",
+      "href": "https://www.w3.org/TR/SVG/geometry.html#YProperty"
+    },
+    {
+      "name": "cx",
+      "href": "https://www.w3.org/TR/SVG/geometry.html#CxProperty"
+    },
+    {
+      "name": "cy",
+      "href": "https://www.w3.org/TR/SVG/geometry.html#CyProperty"
+    },
+    {
+      "name": "r",
+      "href": "https://www.w3.org/TR/SVG/geometry.html#RProperty"
+    },
+    {
+      "name": "rx",
+      "href": "https://www.w3.org/TR/SVG/geometry.html#RxProperty"
+    },
+    {
+      "name": "ry",
+      "href": "https://www.w3.org/TR/SVG/geometry.html#RyProperty"
+    },
+    {
+      "name": "d",
+      "href": "https://www.w3.org/TR/SVG/paths.html#DProperty"
+    },
+    {
+      "name": "display",
+      "href": "https://www.w3.org/TR/SVG/render.html#VisibilityControl"
+    },
+    {
+      "name": "opacity",
+      "href": "https://www.w3.org/TR/SVG/render.html#ObjectAndGroupOpacityProperties"
+    },
+    {
+      "name": "visibility",
+      "href": "https://www.w3.org/TR/SVG/render.html#VisibilityControl"
+    },
+    {
+      "name": "height",
+      "href": "https://www.w3.org/TR/SVG/geometry.html#Sizing"
+    },
+    {
+      "name": "width",
+      "href": "https://www.w3.org/TR/SVG/geometry.html#Sizing"
+    },
+    {
+      "name": "line-height",
+      "href": "https://www.w3.org/TR/SVG/text.html#LineHeightProperty"
+    },
+    {
+      "name": "shape-image-threshold",
+      "href": "https://www.w3.org/TR/SVG/text.html#TextShapeImageThreshold"
+    },
+    {
+      "name": "shape-inside",
+      "href": "https://www.w3.org/TR/SVG/text.html#TextShapeInside"
+    },
+    {
+      "name": "shape-margin",
+      "href": "https://www.w3.org/TR/SVG/text.html#TextShapeMargin"
+    },
+    {
+      "name": "shape-subtract",
+      "href": "https://www.w3.org/TR/SVG/text.html#TextShapeSubtract"
+    },
+    {
+      "name": "shape-padding",
+      "href": "https://www.w3.org/TR/SVG/text.html#TextShapePadding"
+    },
+    {
+      "name": "text-overflow",
+      "href": "https://www.w3.org/TR/SVG/text.html#TextOverflowProperty"
+    },
+    {
+      "name": "font-kerning",
+      "href": "https://www.w3.org/TR/css-fonts-3/#font-kerning-prop"
+    },
+    {
+      "name": "font",
+      "href": "https://www.w3.org/TR/css-fonts-3/#font-prop"
+    },
+    {
+      "name": "font-family",
+      "href": "https://www.w3.org/TR/css-fonts-3/#font-family-prop"
+    },
+    {
+      "name": "font-feature-settings",
+      "href": "https://www.w3.org/TR/css-fonts-3/#font-feature-settings-prop"
+    },
+    {
+      "name": "font-size",
+      "href": "https://www.w3.org/TR/css-fonts-3/#font-size-prop"
+    },
+    {
+      "name": "font-size-adjust",
+      "href": "https://www.w3.org/TR/css-fonts-3/#font-size-adjust-prop"
+    },
+    {
+      "name": "font-stretch",
+      "href": "https://www.w3.org/TR/css-fonts-3/#font-stretch-prop"
+    },
+    {
+      "name": "font-style",
+      "href": "https://www.w3.org/TR/css-fonts-3/#font-style-prop"
+    },
+    {
+      "name": "font-variant",
+      "href": "https://www.w3.org/TR/css-fonts-3/#propdef-font-variant"
+    },
+    {
+      "name": "font-variant-ligatures",
+      "href": "https://www.w3.org/TR/css-fonts-3/#font-variant-ligatures-prop"
+    },
+    {
+      "name": "font-weight",
+      "href": "https://www.w3.org/TR/css-fonts-3/#font-weight-prop"
+    },
+    {
+      "name": "hanging-punctuation",
+      "href": "https://www.w3.org/TR/css-text-3/#hanging-punctuation-property"
+    },
+    {
+      "name": "hyphens",
+      "href": "https://www.w3.org/TR/css-text-3/#hyphens-property"
+    },
+    {
+      "name": "letter-spacing",
+      "href": "https://www.w3.org/TR/css-text-3/#letter-spacing-property"
+    },
+    {
+      "name": "line-break",
+      "href": "https://www.w3.org/TR/css-text-3/#line-break-property"
+    },
+    {
+      "name": "overflow-wrap",
+      "href": "https://www.w3.org/TR/css-text-3/#overflow-wrap-property"
+    },
+    {
+      "name": "tab-size",
+      "href": "https://www.w3.org/TR/css-text-3/#tab-size-property"
+    },
+    {
+      "name": "text-align",
+      "href": "https://www.w3.org/TR/css-text-3/#text-align-property"
+    },
+    {
+      "name": "text-align-last",
+      "href": "https://www.w3.org/TR/css-text-3/#text-align-last-property"
+    },
+    {
+      "name": "text-indent",
+      "href": "https://www.w3.org/TR/css-text-3/#text-indent-property"
+    },
+    {
+      "name": "text-justify",
+      "href": "https://www.w3.org/TR/css-text-3/#text-justify-property"
+    },
+    {
+      "name": "text-transform",
+      "href": "https://www.w3.org/TR/css-text-3/#text-transform-property"
+    },
+    {
+      "name": "white-space",
+      "href": "https://www.w3.org/TR/css-text-3/#white-space-property"
+    },
+    {
+      "name": "word-break",
+      "href": "https://www.w3.org/TR/css-text-3/#word-break-property"
+    },
+    {
+      "name": "word-spacing",
+      "href": "https://www.w3.org/TR/css-text-3/#word-spacing-property"
+    },
+    {
+      "name": "word-wrap",
+      "href": "https://www.w3.org/TR/css-text-3/#overflow-wrap-property"
+    },
+    {
+      "name": "vertical-align",
+      "href": "https://drafts.csswg.org/css-inline/#transverse-alignment"
+    },
+    {
+      "name": "direction",
+      "href": "https://www.w3.org/TR/SVG/text.html#DirectionProperty"
+    },
+    {
+      "name": "unicode-bidi",
+      "href": "https://www.w3.org/TR/css-writing-modes-3/#unicode-bidi"
+    },
+    {
+      "name": "writing-mode",
+      "href": "https://www.w3.org/TR/SVG/text.html#WritingModeProperty"
+    },
+    {
+      "name": "text-orientation",
+      "href": "https://www.w3.org/TR/css3-writing-modes/#text-orientation"
+    },
+    {
+      "name": "text-combine-upright",
+      "href": "https://www.w3.org/TR/css-writing-modes-3/#text-combine-upright"
+    },
+    {
+      "name": "text-decoration",
+      "href": "https://www.w3.org/TR/SVG/text.html#TextDecorationProperties"
+    },
+    {
+      "name": "text-decoration-line",
+      "href": "https://www.w3.org/TR/SVG/text.html#TextDecorationProperties"
+    },
+    {
+      "name": "text-decoration-style",
+      "href": "https://www.w3.org/TR/SVG/text.html#TextDecorationProperties"
+    },
+    {
+      "name": "text-decoration-color",
+      "href": "https://www.w3.org/TR/SVG/text.html#TextDecorationProperties"
+    },
+    {
+      "name": "object-fit",
+      "href": "https://www.w3.org/TR/css3-images/#the-object-fit"
+    },
+    {
+      "name": "object-position",
+      "href": "https://www.w3.org/TR/css3-images/#the-object-position"
+    },
+    {
+      "name": "outline",
+      "href": "https://www.w3.org/TR/CSS21/ui.html#propdef-outline"
+    },
+    {
+      "name": "position",
+      "href": "https://www.w3.org/TR/CSS21/visuren.html#propdef-position"
+    },
+    {
+      "name": "text-transform",
+      "href": "https://www.w3.org/TR/CSS21/text.html#propdef-text-transform"
+    },
+    {
+      "name": "border-top-style",
+      "href": "https://www.w3.org/TR/CSS21/box.html#propdef-border-top-style"
+    },
+    {
+      "name": "border-style",
+      "href": "https://www.w3.org/TR/CSS21/box.html#propdef-border-style"
+    },
+    {
+      "name": "float",
+      "href": "https://www.w3.org/TR/CSS21/visuren.html#propdef-float"
+    },
+    {
+      "name": "margin-top",
+      "href": "https://www.w3.org/TR/CSS21/box.html#propdef-margin-top"
+    },
+    {
+      "name": "content",
+      "href": "https://www.w3.org/TR/CSS21/generate.html#propdef-content"
+    },
+    {
+      "name": "transform-box",
+      "href": "https://drafts.csswg.org/css-transforms/#transform-box"
+    },
+    {
+      "name": "transform-origin",
+      "href": "https://drafts.csswg.org/css-transforms/#transform-origin-property"
+    },
+    {
+      "name": "will-change",
+      "href": "https://drafts.csswg.org/css-will-change/#will-change"
+    },
+    {
+      "name": "background",
+      "href": "https://drafts.csswg.org/css-backgrounds-3/#background"
+    },
+    {
+      "name": "min-width",
+      "href": "https://www.w3.org/TR/CSS21/visudet.html#propdef-min-width"
+    },
+    {
+      "name": "max-width",
+      "href": "https://www.w3.org/TR/CSS21/visudet.html#propdef-max-width"
+    },
+    {
+      "name": "block-size",
+      "href": "https://www.w3.org/TR/SVG/http://dev.w3.org/csswg/css-writing-modes/#block-size"
+    },
+    {
+      "name": "shape-outside",
+      "href": "https://www.w3.org/TR/css-shapes/#shape-outside-property"
+    }
+  ]
+}

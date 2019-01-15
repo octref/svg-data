@@ -12,9 +12,14 @@
 		"Other"
 	],
 	"contributes": {
+		"html": {
+			"customData": [
+				"./data/svg-html-contribution.json"
+			]
+		},
 		"css": {
 			"customData": [
-				"./data/svg-properties.json"
+				"./data/svg-css-contribution.json"
 			]
 		}
 	},
@@ -25,7 +30,10 @@
 		"postinstall": "node ./node_modules/vscode/bin/install"
 	},
 	"devDependencies": {
+		"@types/cheerio": "^0.22.10",
 		"@types/node": "^10.12.18",
+		"cheerio": "^1.0.0-rc.2",
+		"svgwg": "w3c/svgwg",
 		"tslint": "^5.11.0",
 		"typescript": "^2.6.1",
 		"vscode": "^1.1.22"
