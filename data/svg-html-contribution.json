@@ -1,4 +1,4 @@
-{
+{ // lets add a version number as well
   "tags": [
     {
       "name": "a",
@@ -8,11 +8,13 @@
           "name": "href",
           "href": "https://www.w3.org/TR/SVG/linking.html#AElementHrefAttribute",
           "description": "The **`href`** attribute defines a link to a resource as a reference [URL](https://developer.mozilla.org/en-US/docs/Web/SVG/Content_type#URL). The exact meaning of that link depends on the context of each element using it."
+          // schema needs to say that descirption is a formated in markdown  
+        
         },
         {
           "name": "target",
-          "href": "https://www.w3.org/TR/SVG/linking.html#AElementTargetAttribute",
-          "description": null
+          "href": "https://www.w3.org/TR/SVG/linking.html#AElementTargetAttribute", // maybe spec instea dof href?
+          "description": null // can be removed I guess
         },
         {
           "name": "download",
