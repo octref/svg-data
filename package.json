@@ -43,6 +43,7 @@
 	"dependencies": {
 		"got": "^9.5.1",
 		"mdn-browser-compat-data": "^0.0.61",
+		"mdn-data": "mdn/data",
 		"turndown": "^5.0.1"
 	}
 }

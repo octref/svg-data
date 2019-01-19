@@ -5,7 +5,7 @@ const MDN_ROOT = 'https://developer.mozilla.org'
 
 const turndownService = new TurndownService()
 
-type PropertyType = 'tag' | 'attribute'
+export type PropertyType = 'tag' | 'attribute'
 
 async function getMDNHTMLDescription(name: string, type: PropertyType): Promise<string> {
   if (type === 'tag') {

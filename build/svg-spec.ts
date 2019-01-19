@@ -25,16 +25,26 @@ interface AttributeCategory {
   attributes: Attribute[]
 }
 
-interface Property {
+export interface CSSProperty {
   name: string
-  href: string
+  spec: string
   description?: string
+  browsers?: string[]
+  status: string
+  syntax: string
+  values?: CSSPropertyValue[]
+}
+
+export interface CSSPropertyValue {
+  name: string
+  spec: string
+  descriptipn: string
 }
 
 const globalAttributes: Attribute[] = []
 const attributeCategories: AttributeCategory[] = []
 const elements: Element[] = []
-const properties: Property[] = []
+const cssProperties: Partial<CSSProperty>[] = []
 
 function handleHref(href: string) {
   return href.startsWith('https://') ? href : 'https://www.w3.org/TR/SVG/' + href
@@ -44,7 +54,7 @@ function parseStringList(str: string) {
   return str.split(',').map(s => s.trim())
 }
 
-export function getSpec() {
+export function getSVGSpec() {
   const src = fs.readFileSync(DEFINITION_PATH, 'utf-8')
   const $ = cheerio.load(src, {
     xmlMode: true
@@ -112,15 +122,15 @@ export function getSpec() {
   })
 
   $('property').each((_, e) => {
-    properties.push({
+    cssProperties.push({
       name: e.attribs['name'],
-      href: handleHref(e.attribs['href'])
+      spec: handleHref(e.attribs['href'])
     })
   })
 
   return {
     elements,
     globalAttributes,
-    properties
+    cssProperties
   }
 }

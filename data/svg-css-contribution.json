@@ -2,451 +2,718 @@
   "properties": [
     {
       "name": "alignment-baseline",
-      "href": "https://www.w3.org/TR/SVG/text.html#AlignmentBaselineProperty"
+      "spec": "https://www.w3.org/TR/SVG/text.html#AlignmentBaselineProperty",
+      "description": "The `alignment-baseline` attribute specifies how an object is aligned with respect to its parent. This property specifies which baseline of this element is to be aligned with the corresponding baseline of the parent. For example, this allows alphabetic baselines in Roman text to stay aligned across font size changes. It defaults to the baseline with the same name as the computed value of the alignment-baseline property."
     },
     {
       "name": "baseline-shift",
-      "href": "https://www.w3.org/TR/SVG/text.html#BaselineShiftProperty"
+      "spec": "https://www.w3.org/TR/SVG/text.html#BaselineShiftProperty",
+      "description": "The `baseline-shift` attribute allows repositioning of the dominant-baseline relative to the dominant-baseline of the parent text content element. The shifted object might be a sub- or superscript."
     },
     {
       "name": "color",
-      "href": "https://www.w3.org/TR/SVG/painting.html#ColorProperty"
+      "spec": "https://www.w3.org/TR/SVG/painting.html#ColorProperty",
+      "status": "<color>",
+      "description": "The `color` attribute is used to provide a potential indirect value (`currentColor`) for the `[fill](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/fill)`, `[stroke](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/stroke)`, `[stop-color](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/stop-color)`, `[flood-color](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/flood-color)` and `[lighting-color](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/lighting-color)` attributes."
     },
     {
       "name": "color-interpolation",
-      "href": "https://www.w3.org/TR/SVG/painting.html#ColorInterpolationProperty"
+      "spec": "https://www.w3.org/TR/SVG/painting.html#ColorInterpolationProperty",
+      "description": "The `color-interpolation` attribute specifies the color space for gradient interpolations, color animations, and alpha compositing."
     },
     {
       "name": "color-rendering",
-      "href": "https://www.w3.org/TR/SVG/painting.html#ColorRenderingProperty"
+      "spec": "https://www.w3.org/TR/SVG/painting.html#ColorRenderingProperty",
+      "description": "The `color-rendering` attribute provides a hint to the SVG user agent about how to optimize its color interpolation and compositing operations.  \n  \n`color-rendering` takes precedence over `color-interpolation-filters`. For example, assume `color-rendering: optimizeSpeed` and `color-interpolation-filters: linearRGB`. In this case, the SVG user agent should perform color operations in a way that optimizes performance, which might mean sacrificing the color interpolation precision as specified by `color-interpolation-filters: linearRGB`."
     },
     {
       "name": "cursor",
-      "href": "https://www.w3.org/TR/css-ui-3/#cursor"
+      "spec": "https://www.w3.org/TR/css-ui-3/#cursor",
+      "status": "[ [ <url> [ <x> <y> ]? , ]* [ auto | default | none | context-menu | help | pointer | progress | wait | cell | crosshair | text | vertical-text | alias | copy | move | no-drop | not-allowed | e-resize | n-resize | ne-resize | nw-resize | s-resize | se-resize | sw-resize | w-resize | ew-resize | ns-resize | nesw-resize | nwse-resize | col-resize | row-resize | all-scroll | zoom-in | zoom-out | grab | grabbing ] ]",
+      "description": "The `cursor` attribute specifies the mouse cursor displayed when the mouse pointer is over an element."
     },
     {
       "name": "dominant-baseline",
-      "href": "https://www.w3.org/TR/SVG/text.html#DominantBaselineProperty"
+      "spec": "https://www.w3.org/TR/SVG/text.html#DominantBaselineProperty",
+      "description": "The `dominant-baseline` attribute is used to determine or re-determine a scaled-baseline-table. A scaled-baseline-table is a compound value with three components: a baseline-identifier for the dominant-baseline, a baseline-table and a baseline-table font-size. Some values of the property re-determine all three values; other only re-establish the baseline-table font-size. When the initial value, auto, would give an undesired result, this property can be used to explicitly set the desire scaled-baseline-table."
     },
     {
       "name": "fill",
-      "href": "https://www.w3.org/TR/SVG/painting.html#FillProperty"
+      "spec": "https://www.w3.org/TR/SVG/painting.html#FillProperty",
+      "description": "The **`fill`** attribute has two different meaning: For shapes and text it's a presentation attribute that lets define the color (_or any SVG paint servers like gradients or patterns_) used to paint the element; for animation it lets define what is the final state of the animation."
     },
     {
       "name": "fill-opacity",
-      "href": "https://www.w3.org/TR/SVG/painting.html#FillOpacityProperty"
+      "spec": "https://www.w3.org/TR/SVG/painting.html#FillOpacityProperty",
+      "description": "The **`fill-opacity`** attribute is a presentation attribute defining the opacity of the paint server (_color_, _gradient_, _pattern_, etc) applied to a shape."
     },
     {
       "name": "fill-rule",
-      "href": "https://www.w3.org/TR/SVG/painting.html#FillRuleProperty"
+      "spec": "https://www.w3.org/TR/SVG/painting.html#FillRuleProperty",
+      "description": "The **`fill-rule`** attribute is a presentation attribute defining the algorithm to use to determine the _inside_ part of a shape."
     },
     {
       "name": "glyph-orientation-horizontal",
-      "href": "https://www.w3.org/TR/SVG/text.html#GlyphOrientationHorizontalProperty"
+      "spec": "https://www.w3.org/TR/SVG/text.html#GlyphOrientationHorizontalProperty"
     },
     {
       "name": "glyph-orientation-vertical",
-      "href": "https://www.w3.org/TR/SVG/text.html#GlyphOrientationVerticalProperty"
+      "spec": "https://www.w3.org/TR/SVG/text.html#GlyphOrientationVerticalProperty"
     },
     {
       "name": "image-rendering",
-      "href": "https://www.w3.org/TR/SVG/painting.html#ImageRenderingProperty"
+      "spec": "https://www.w3.org/TR/SVG/painting.html#ImageRenderingProperty",
+      "status": "auto | crisp-edges | pixelated",
+      "browsers": [
+        "FF3.6",
+        "S",
+        "C",
+        "O"
+      ],
+      "description": "The **`image-rendering`** attribute provides a hint to the browser about how to make speed vs. quality tradeoffs as it performs image processing.  \n  \nAs a presentation attribute, it also can be used as a property directly inside a [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/) stylesheet, see CSS [`image-rendering`](https://developer.mozilla.org/en-US/docs/Web/CSS/image-rendering \"The image-rendering CSS property sets an image scaling algorithm. The property applies to an element itself, to any images set in its other properties, and to its descendants.\") for further information"
     },
     {
       "name": "inline-size",
-      "href": "https://www.w3.org/TR/SVG/text.html#InlineSizeProperty"
+      "spec": "https://www.w3.org/TR/SVG/text.html#InlineSizeProperty",
+      "status": "<'width'>",
+      "browsers": [
+        "FF41",
+        "C57",
+        "O44"
+      ]
     },
     {
       "name": "marker",
-      "href": "https://www.w3.org/TR/SVG/painting.html#MarkerProperty"
+      "spec": "https://www.w3.org/TR/SVG/painting.html#MarkerProperty"
     },
     {
       "name": "marker-end",
-      "href": "https://www.w3.org/TR/SVG/painting.html#MarkerEndProperty"
+      "spec": "https://www.w3.org/TR/SVG/painting.html#MarkerEndProperty",
+      "description": "The `marker-end` defines the arrowhead or polymarker that will be drawn at the final vertex of the given [`<path>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/path \"The <path> SVG element is the generic element to define a shape. All the basic shapes can be created with a path element.\") element or [basic shape](https://developer.mozilla.org/en/SVG/Element#Basic_shapes \"en/SVG/Element#Basic_shapes\"). Note that for a [`<path>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/path \"The <path> SVG element is the generic element to define a shape. All the basic shapes can be created with a path element.\") element which ends with a closed sub-path, the last vertex is the same as the initial vertex on the given sub-path. In this case, if `marker-end` does not equal none, then it is possible that two markers will be rendered on the given vertex. One way to prevent this is to set `marker-end` to none. (Note that the same comment applies to [`<polygon>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/polygon \"The <polygon> element defines a closed shape consisting of a set of connected straight line segments. The last point is connected to the first point. For open shapes see the <polyline> element.\") elements.)"
     },
     {
       "name": "marker-mid",
-      "href": "https://www.w3.org/TR/SVG/painting.html#MarkerMidProperty"
+      "spec": "https://www.w3.org/TR/SVG/painting.html#MarkerMidProperty",
+      "description": "The `marker-mid` defines the arrowhead or polymarker that shall be drawn at every vertex other than the first and last vertex of the given [`<path>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/path \"The <path> SVG element is the generic element to define a shape. All the basic shapes can be created with a path element.\") element or [basic shape](https://developer.mozilla.org/en/SVG/Element#Basic_shapes \"en/SVG/Element#Basic_shapes\")."
     },
     {
       "name": "marker-start",
-      "href": "https://www.w3.org/TR/SVG/painting.html#MarkerStartProperty"
+      "spec": "https://www.w3.org/TR/SVG/painting.html#MarkerStartProperty",
+      "description": "The `marker-start` attribute defines the arrowhead or polymarker that will be drawn at the first vertex of the given [`<path>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/path \"The <path> SVG element is the generic element to define a shape. All the basic shapes can be created with a path element.\") element or [basic shape](https://developer.mozilla.org/en/SVG/Element#Basic_shapes \"en/SVG/Element#Basic_shapes\")."
     },
     {
       "name": "overflow",
-      "href": "https://www.w3.org/TR/SVG/render.html#OverflowAndClipProperties"
+      "spec": "https://www.w3.org/TR/SVG/render.html#OverflowAndClipProperties",
+      "status": "[ visible | hidden | clip | scroll | auto ]{1,2}",
+      "description": "The `overflow` attribute has the same parameter values as defined for the [`css overflow property`](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow \"The documentation about this has not yet been written; please consider contributing!\"). However, the following additional points apply:"
     },
     {
       "name": "paint-order",
-      "href": "https://www.w3.org/TR/SVG/painting.html#PaintOrderProperty"
+      "spec": "https://www.w3.org/TR/SVG/painting.html#PaintOrderProperty",
+      "status": "normal | [ fill || stroke || markers ]",
+      "browsers": [
+        "FF60",
+        "S"
+      ],
+      "description": "The `paint-order` attribute specifies the order that the fill, stroke, and markers of a given shape or text element are painted. Its default value is **normal**, which indicates that the fill will be painted first, then the stroke, and finally the markers. To specify a different order, a white space separated list of keywords **fill**, **stroke**, and **markers** can be used. If any of the three painting components is omitted, then they will be painted in their default order after the specified components. For example, using **stroke** is equivalent to **stroke fill markers**."
     },
     {
       "name": "pointer-events",
-      "href": "https://www.w3.org/TR/SVG/interact.html#PointerEventsProperty"
+      "spec": "https://www.w3.org/TR/SVG/interact.html#PointerEventsProperty",
+      "status": "auto | none | visiblePainted | visibleFill | visibleStroke | visible | painted | fill | stroke | all | inherit",
+      "description": "The **`pointer-events`** attribute is a presentation attribute that lets define whether or when an element may be the target of a mouse event."
     },
     {
       "name": "shape-rendering",
-      "href": "https://www.w3.org/TR/SVG/painting.html#ShapeRenderingProperty"
+      "spec": "https://www.w3.org/TR/SVG/painting.html#ShapeRenderingProperty",
+      "description": "The creator of SVG content might want to provide a hint about what tradeoffs to make as the browser renders [`<path>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/path \"The <path> SVG element is the generic element to define a shape. All the basic shapes can be created with a path element.\") element or basic shapes. The `shape-rendering` attribute provides these hints."
     },
     {
       "name": "stop-color",
-      "href": "https://www.w3.org/TR/SVG/pservers.html#StopColorProperty"
+      "spec": "https://www.w3.org/TR/SVG/pservers.html#StopColorProperty",
+      "description": "The `stop-color` attribute indicates what color to use at that gradient stop. The keyword `currentColor` and ICC colors can be specified in the same manner as within a [<paint>](https://developer.mozilla.org/en/SVG/Content_type#Paint \"en/SVG/Content_type#Paint\") specification for the `[fill](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/fill)` and `[stroke](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/stroke)` attributes."
     },
     {
       "name": "stop-opacity",
-      "href": "https://www.w3.org/TR/SVG/pservers.html#StopOpacityProperty"
+      "spec": "https://www.w3.org/TR/SVG/pservers.html#StopOpacityProperty",
+      "description": "The `stop-opacity` attribute defines the opacity of a given gradient stop."
     },
     {
       "name": "stroke",
-      "href": "https://www.w3.org/TR/SVG/painting.html#StrokeProperty"
+      "spec": "https://www.w3.org/TR/SVG/painting.html#StrokeProperty",
+      "description": "The **`stroke`** attribute is a presentation attribute defining the color (_or any SVG paint servers like gradients or patterns_) used to paint the outline of the shape;"
     },
     {
       "name": "stroke-dasharray",
-      "href": "https://www.w3.org/TR/SVG/painting.html#StrokeDasharrayProperty"
+      "spec": "https://www.w3.org/TR/SVG/painting.html#StrokeDasharrayProperty",
+      "description": "The **`stroke-dasharray`** attribute is a presentation attribute defining the pattern of dashes and gaps used to paint the outline of the shape;"
     },
     {
       "name": "stroke-dashoffset",
-      "href": "https://www.w3.org/TR/SVG/painting.html#StrokeDashoffsetProperty"
+      "spec": "https://www.w3.org/TR/SVG/painting.html#StrokeDashoffsetProperty",
+      "description": "The **`stroke-dashoffset`** attribute is a presentation attribute defining an offset on the rendering of the associated dash array."
     },
     {
       "name": "stroke-linecap",
-      "href": "https://www.w3.org/TR/SVG/painting.html#StrokeLinecapProperty"
+      "spec": "https://www.w3.org/TR/SVG/painting.html#StrokeLinecapProperty",
+      "description": "The **`stroke-linecap`** attribute is a presentation attribute defining the shape to be used at the end of open subpaths when they are stroked."
     },
     {
       "name": "stroke-linejoin",
-      "href": "https://www.w3.org/TR/SVG/painting.html#StrokeLinejoinProperty"
+      "spec": "https://www.w3.org/TR/SVG/painting.html#StrokeLinejoinProperty",
+      "description": "The **`stroke-linejoin`** attribute is a presentation attribute defining the shape to be used at the corners of paths when they are stroked."
     },
     {
       "name": "stroke-miterlimit",
-      "href": "https://www.w3.org/TR/SVG/painting.html#StrokeMiterlimitProperty"
+      "spec": "https://www.w3.org/TR/SVG/painting.html#StrokeMiterlimitProperty",
+      "description": "The **`stroke-miterlimit`** attribute is a presentation attribute defining a limit on the ratio of the miter length to the `[stroke-width](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/stroke-width)` used to draw a miter join. When the limit is exceeded, the join is converted from a miter to a bevel."
     },
     {
       "name": "stroke-opacity",
-      "href": "https://www.w3.org/TR/SVG/painting.html#StrokeOpacityProperty"
+      "spec": "https://www.w3.org/TR/SVG/painting.html#StrokeOpacityProperty",
+      "description": "The **`stroke-opacity`** attribute is a presentation attribute defining the opacity of the paint server (_color_, _gradient_, _pattern_, etc) applied to the stroke of a shape."
     },
     {
       "name": "stroke-width",
-      "href": "https://www.w3.org/TR/SVG/painting.html#StrokeWidthProperty"
+      "spec": "https://www.w3.org/TR/SVG/painting.html#StrokeWidthProperty",
+      "description": "The **`stroke-width`** attribute is a presentation attribute defining the width of the stroke to be applied to the shape."
     },
     {
       "name": "text-anchor",
-      "href": "https://www.w3.org/TR/SVG/text.html#TextAnchorProperty"
+      "spec": "https://www.w3.org/TR/SVG/text.html#TextAnchorProperty",
+      "description": "The `text-anchor` attribute is used to align (start-, middle- or end-alignment) a string of text relative to a given point."
     },
     {
       "name": "text-decoration-fill",
-      "href": "https://www.w3.org/TR/SVG/text.html#TextDecorationFillProperty"
+      "spec": "https://www.w3.org/TR/SVG/text.html#TextDecorationFillProperty"
     },
     {
       "name": "text-decoration-stroke",
-      "href": "https://www.w3.org/TR/SVG/text.html#TextDecorationStrokeProperty"
+      "spec": "https://www.w3.org/TR/SVG/text.html#TextDecorationStrokeProperty"
     },
     {
       "name": "text-rendering",
-      "href": "https://www.w3.org/TR/SVG/painting.html#TextRenderingProperty"
+      "spec": "https://www.w3.org/TR/SVG/painting.html#TextRenderingProperty",
+      "status": "auto | optimizeSpeed | optimizeLegibility | geometricPrecision",
+      "browsers": [
+        "FF3",
+        "S5",
+        "C4",
+        "O15"
+      ],
+      "description": "The creator of SVG content might want to provide a hint about what tradeoffs to make as the browser renders text. The `text-rendering` attribute provides these hints."
     },
     {
       "name": "transform",
-      "href": "https://www.w3.org/TR/SVG/coords.html#TransformProperty"
+      "spec": "https://www.w3.org/TR/SVG/coords.html#TransformProperty",
+      "status": "none | <transform-list>",
+      "description": "The **`transform`** attribute defines a list of transform definitions that are applied to an element and the element's children."
     },
     {
       "name": "vector-effect",
-      "href": "https://www.w3.org/TR/SVG/coords.html#VectorEffectProperty"
+      "spec": "https://www.w3.org/TR/SVG/coords.html#VectorEffectProperty",
+      "description": "The `vector-effect` property specifies the vector effect to use when drawing an object. Vector effects are applied before any of the other compositing operations: filters, masks and clips."
     },
     {
       "name": "x",
-      "href": "https://www.w3.org/TR/SVG/geometry.html#XProperty"
+      "spec": "https://www.w3.org/TR/SVG/geometry.html#XProperty",
+      "description": "The **`x`** attribute defines a x-axis coordinate in the user coordinate system."
     },
     {
       "name": "y",
-      "href": "https://www.w3.org/TR/SVG/geometry.html#YProperty"
+      "spec": "https://www.w3.org/TR/SVG/geometry.html#YProperty",
+      "description": "The **`y`** attribute defines a y-axis coordinate in the user coordinate system."
     },
     {
       "name": "cx",
-      "href": "https://www.w3.org/TR/SVG/geometry.html#CxProperty"
+      "spec": "https://www.w3.org/TR/SVG/geometry.html#CxProperty",
+      "description": "The **`cx`** attribute define the x-axis coordinate of a center point."
     },
     {
       "name": "cy",
-      "href": "https://www.w3.org/TR/SVG/geometry.html#CyProperty"
+      "spec": "https://www.w3.org/TR/SVG/geometry.html#CyProperty",
+      "description": "The **`cy`** attribute define the y-axis coordinate of a center point."
     },
     {
       "name": "r",
-      "href": "https://www.w3.org/TR/SVG/geometry.html#RProperty"
+      "spec": "https://www.w3.org/TR/SVG/geometry.html#RProperty",
+      "description": "The **`r`** attribute defines the radius of a circle."
     },
     {
       "name": "rx",
-      "href": "https://www.w3.org/TR/SVG/geometry.html#RxProperty"
+      "spec": "https://www.w3.org/TR/SVG/geometry.html#RxProperty",
+      "description": "The **`rx`** attribute defines a radius on the x-axis."
     },
     {
       "name": "ry",
-      "href": "https://www.w3.org/TR/SVG/geometry.html#RyProperty"
+      "spec": "https://www.w3.org/TR/SVG/geometry.html#RyProperty",
+      "description": "The **`ry`** attribute defines a radius on the y-axis."
     },
     {
       "name": "d",
-      "href": "https://www.w3.org/TR/SVG/paths.html#DProperty"
+      "spec": "https://www.w3.org/TR/SVG/paths.html#DProperty",
+      "description": "The **`d`** attribute defines a path to be drawn."
     },
     {
       "name": "display",
-      "href": "https://www.w3.org/TR/SVG/render.html#VisibilityControl"
+      "spec": "https://www.w3.org/TR/SVG/render.html#VisibilityControl",
+      "status": "[ <display-outside> || <display-inside> ] | <display-listitem> | <display-internal> | <display-box> | <display-legacy>",
+      "description": "The `display` attribute lets you control the rendering of graphical or container elements."
     },
     {
       "name": "opacity",
-      "href": "https://www.w3.org/TR/SVG/render.html#ObjectAndGroupOpacityProperties"
+      "spec": "https://www.w3.org/TR/SVG/render.html#ObjectAndGroupOpacityProperties",
+      "status": "<number>",
+      "description": "The `opacity` attribute specifies the transparency of an object or of a group of objects, that is, the degree to which the background behind the element is overlaid."
     },
     {
       "name": "visibility",
-      "href": "https://www.w3.org/TR/SVG/render.html#VisibilityControl"
+      "spec": "https://www.w3.org/TR/SVG/render.html#VisibilityControl",
+      "status": "visible | hidden | collapse",
+      "description": "The `visibility` attribute lets you control the visibility of graphical elements. With a value of `hidden` or `collapse` the current graphics element is invisible."
     },
     {
       "name": "height",
-      "href": "https://www.w3.org/TR/SVG/geometry.html#Sizing"
+      "spec": "https://www.w3.org/TR/SVG/geometry.html#Sizing",
+      "status": "[ <length> | <percentage> ] && [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto",
+      "description": "The **`height`** attribute defines the vertical length of an element in the user coordinate system."
     },
     {
       "name": "width",
-      "href": "https://www.w3.org/TR/SVG/geometry.html#Sizing"
+      "spec": "https://www.w3.org/TR/SVG/geometry.html#Sizing",
+      "status": "[ <length> | <percentage> ] && [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto",
+      "description": "The **`width`** attribute defines the horizontal length of an element in the user coordinate system."
     },
     {
       "name": "line-height",
-      "href": "https://www.w3.org/TR/SVG/text.html#LineHeightProperty"
+      "spec": "https://www.w3.org/TR/SVG/text.html#LineHeightProperty",
+      "status": "normal | <number> | <length> | <percentage>"
     },
     {
       "name": "shape-image-threshold",
-      "href": "https://www.w3.org/TR/SVG/text.html#TextShapeImageThreshold"
+      "spec": "https://www.w3.org/TR/SVG/text.html#TextShapeImageThreshold",
+      "status": "<number>",
+      "browsers": [
+        "FF62",
+        "S10.1",
+        "C37",
+        "O24"
+      ]
     },
     {
       "name": "shape-inside",
-      "href": "https://www.w3.org/TR/SVG/text.html#TextShapeInside"
+      "spec": "https://www.w3.org/TR/SVG/text.html#TextShapeInside"
     },
     {
       "name": "shape-margin",
-      "href": "https://www.w3.org/TR/SVG/text.html#TextShapeMargin"
+      "spec": "https://www.w3.org/TR/SVG/text.html#TextShapeMargin",
+      "status": "<length-percentage>",
+      "browsers": [
+        "FF62",
+        "S10.1",
+        "C37",
+        "O24"
+      ]
     },
     {
       "name": "shape-subtract",
-      "href": "https://www.w3.org/TR/SVG/text.html#TextShapeSubtract"
+      "spec": "https://www.w3.org/TR/SVG/text.html#TextShapeSubtract"
     },
     {
       "name": "shape-padding",
-      "href": "https://www.w3.org/TR/SVG/text.html#TextShapePadding"
+      "spec": "https://www.w3.org/TR/SVG/text.html#TextShapePadding"
     },
     {
       "name": "text-overflow",
-      "href": "https://www.w3.org/TR/SVG/text.html#TextOverflowProperty"
+      "spec": "https://www.w3.org/TR/SVG/text.html#TextOverflowProperty",
+      "status": "[ clip | ellipsis | <string> ]{1,2}"
     },
     {
       "name": "font-kerning",
-      "href": "https://www.w3.org/TR/css-fonts-3/#font-kerning-prop"
+      "spec": "https://www.w3.org/TR/css-fonts-3/#font-kerning-prop",
+      "status": "auto | normal | none",
+      "browsers": [
+        "FF32",
+        "S7",
+        "C32"
+      ]
     },
     {
       "name": "font",
-      "href": "https://www.w3.org/TR/css-fonts-3/#font-prop"
+      "spec": "https://www.w3.org/TR/css-fonts-3/#font-prop",
+      "status": "[ [ <'font-style'> || <font-variant-css21> || <'font-weight'> || <'font-stretch'> ]? <'font-size'> [ / <'line-height'> ]? <'font-family'> ] | caption | icon | menu | message-box | small-caption | status-bar"
     },
     {
       "name": "font-family",
-      "href": "https://www.w3.org/TR/css-fonts-3/#font-family-prop"
+      "spec": "https://www.w3.org/TR/css-fonts-3/#font-family-prop",
+      "status": "[ <family-name> | <generic-family> ]#",
+      "description": "The `font-family` attribute indicates which font family will be used to render the text, specified as a prioritized list of font family names and/or generic family names."
     },
     {
       "name": "font-feature-settings",
-      "href": "https://www.w3.org/TR/css-fonts-3/#font-feature-settings-prop"
+      "spec": "https://www.w3.org/TR/css-fonts-3/#font-feature-settings-prop",
+      "status": "normal | <feature-tag-value>#"
     },
     {
       "name": "font-size",
-      "href": "https://www.w3.org/TR/css-fonts-3/#font-size-prop"
+      "spec": "https://www.w3.org/TR/css-fonts-3/#font-size-prop",
+      "status": "<absolute-size> | <relative-size> | <length-percentage>",
+      "description": "The `font-size` attribute refers to the size of the font from baseline to baseline when multiple lines of text are set solid in a multiline layout environment. For SVG, if a [<length>](https://developer.mozilla.org/en/SVG/Content_type#Length \"https://developer.mozilla.org/en/SVG/Content_type#Length\") is provided without a unit identifier (e.g., an unqualified number such as 128), the browser processes the [<length>](https://developer.mozilla.org/en/SVG/Content_type#Length \"https://developer.mozilla.org/en/SVG/Content_type#Length\") as a height value in the current user coordinate system."
     },
     {
       "name": "font-size-adjust",
-      "href": "https://www.w3.org/TR/css-fonts-3/#font-size-adjust-prop"
+      "spec": "https://www.w3.org/TR/css-fonts-3/#font-size-adjust-prop",
+      "status": "none | <number>",
+      "browsers": [
+        "FF40",
+        "C43",
+        "O30"
+      ],
+      "description": "The `font-size-adjust` attribute allows authors to specify an aspect value for an element that will preserve the x-height of the first choice font in a substitute font."
     },
     {
       "name": "font-stretch",
-      "href": "https://www.w3.org/TR/css-fonts-3/#font-stretch-prop"
+      "spec": "https://www.w3.org/TR/css-fonts-3/#font-stretch-prop",
+      "status": "<font-stretch-absolute>",
+      "description": "The `font-stretch` attribute indicates the desired amount of condensing or expansion in the glyphs used to render the text."
     },
     {
       "name": "font-style",
-      "href": "https://www.w3.org/TR/css-fonts-3/#font-style-prop"
+      "spec": "https://www.w3.org/TR/css-fonts-3/#font-style-prop",
+      "status": "normal | italic | oblique <angle>?",
+      "description": "The `font-style` attribute specifies whether the text is to be rendered using a normal, italic or oblique face."
     },
     {
       "name": "font-variant",
-      "href": "https://www.w3.org/TR/css-fonts-3/#propdef-font-variant"
+      "spec": "https://www.w3.org/TR/css-fonts-3/#propdef-font-variant",
+      "status": "normal | none | [ <common-lig-values> || <discretionary-lig-values> || <historical-lig-values> || <contextual-alt-values> || stylistic( <feature-value-name> ) || historical-forms || styleset( <feature-value-name># ) || character-variant( <feature-value-name># ) || swash( <feature-value-name> ) || ornaments( <feature-value-name> ) || annotation( <feature-value-name> ) || [ small-caps | all-small-caps | petite-caps | all-petite-caps | unicase | titling-caps ] || <numeric-figure-values> || <numeric-spacing-values> || <numeric-fraction-values> || ordinal || slashed-zero || <east-asian-variant-values> || <east-asian-width-values> || ruby ]",
+      "description": "The `font-variant` attribute indicates whether the text is to be rendered using the normal glyphs for lowercase characters or using small-caps glyphs for lowercase characters."
     },
     {
       "name": "font-variant-ligatures",
-      "href": "https://www.w3.org/TR/css-fonts-3/#font-variant-ligatures-prop"
+      "spec": "https://www.w3.org/TR/css-fonts-3/#font-variant-ligatures-prop",
+      "status": "normal | none | [ <common-lig-values> || <discretionary-lig-values> || <historical-lig-values> || <contextual-alt-values> ]",
+      "browsers": [
+        "FF34",
+        "S9.1",
+        "C34",
+        "O21"
+      ]
     },
     {
       "name": "font-weight",
-      "href": "https://www.w3.org/TR/css-fonts-3/#font-weight-prop"
+      "spec": "https://www.w3.org/TR/css-fonts-3/#font-weight-prop",
+      "status": "<font-weight-absolute> | bolder | lighter",
+      "description": "The `font-weight` attribute refers to the boldness or lightness of the glyphs used to render the text, relative to other fonts in the same font family."
     },
     {
       "name": "hanging-punctuation",
-      "href": "https://www.w3.org/TR/css-text-3/#hanging-punctuation-property"
+      "spec": "https://www.w3.org/TR/css-text-3/#hanging-punctuation-property",
+      "status": "none | [ first || [ force-end | allow-end ] || last ]",
+      "browsers": [
+        "S10"
+      ]
     },
     {
       "name": "hyphens",
-      "href": "https://www.w3.org/TR/css-text-3/#hyphens-property"
+      "spec": "https://www.w3.org/TR/css-text-3/#hyphens-property",
+      "status": "none | manual | auto"
     },
     {
       "name": "letter-spacing",
-      "href": "https://www.w3.org/TR/css-text-3/#letter-spacing-property"
+      "spec": "https://www.w3.org/TR/css-text-3/#letter-spacing-property",
+      "status": "normal | <length>",
+      "description": "The `letter-spacing` attribute controls spacing between text characters, in addition to any spacing from the `[kerning](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/kerning)` attribute."
     },
     {
       "name": "line-break",
-      "href": "https://www.w3.org/TR/css-text-3/#line-break-property"
+      "spec": "https://www.w3.org/TR/css-text-3/#line-break-property",
+      "status": "auto | loose | normal | strict",
+      "browsers": [
+        "E14",
+        "S",
+        "C58",
+        "IE5.5",
+        "O45"
+      ]
     },
     {
       "name": "overflow-wrap",
-      "href": "https://www.w3.org/TR/css-text-3/#overflow-wrap-property"
+      "spec": "https://www.w3.org/TR/css-text-3/#overflow-wrap-property",
+      "status": "normal | break-word | anywhere"
     },
     {
       "name": "tab-size",
-      "href": "https://www.w3.org/TR/css-text-3/#tab-size-property"
+      "spec": "https://www.w3.org/TR/css-text-3/#tab-size-property",
+      "status": "<integer> | <length>",
+      "browsers": [
+        "FF4",
+        "S6.1",
+        "C21",
+        "O15"
+      ]
     },
     {
       "name": "text-align",
-      "href": "https://www.w3.org/TR/css-text-3/#text-align-property"
+      "spec": "https://www.w3.org/TR/css-text-3/#text-align-property",
+      "status": "start | end | left | right | center | justify | match-parent"
     },
     {
       "name": "text-align-last",
-      "href": "https://www.w3.org/TR/css-text-3/#text-align-last-property"
+      "spec": "https://www.w3.org/TR/css-text-3/#text-align-last-property",
+      "status": "auto | start | end | left | right | center | justify",
+      "browsers": [
+        "E12",
+        "FF49",
+        "C47",
+        "IE",
+        "O"
+      ]
     },
     {
       "name": "text-indent",
-      "href": "https://www.w3.org/TR/css-text-3/#text-indent-property"
+      "spec": "https://www.w3.org/TR/css-text-3/#text-indent-property",
+      "status": "<length-percentage> && hanging? && each-line?"
     },
     {
       "name": "text-justify",
-      "href": "https://www.w3.org/TR/css-text-3/#text-justify-property"
+      "spec": "https://www.w3.org/TR/css-text-3/#text-justify-property",
+      "status": "auto | inter-character | inter-word | none",
+      "browsers": [
+        "E14",
+        "FF55",
+        "C",
+        "IE11",
+        "O"
+      ]
     },
     {
       "name": "text-transform",
-      "href": "https://www.w3.org/TR/css-text-3/#text-transform-property"
+      "spec": "https://www.w3.org/TR/css-text-3/#text-transform-property",
+      "status": "none | capitalize | uppercase | lowercase | full-width"
     },
     {
       "name": "white-space",
-      "href": "https://www.w3.org/TR/css-text-3/#white-space-property"
+      "spec": "https://www.w3.org/TR/css-text-3/#white-space-property",
+      "status": "normal | pre | nowrap | pre-wrap | pre-line"
     },
     {
       "name": "word-break",
-      "href": "https://www.w3.org/TR/css-text-3/#word-break-property"
+      "spec": "https://www.w3.org/TR/css-text-3/#word-break-property",
+      "status": "normal | break-all | keep-all | break-word"
     },
     {
       "name": "word-spacing",
-      "href": "https://www.w3.org/TR/css-text-3/#word-spacing-property"
+      "spec": "https://www.w3.org/TR/css-text-3/#word-spacing-property",
+      "status": "normal | <length-percentage>",
+      "description": "The `word-spacing` attribute specifies spacing behavior between words."
     },
     {
       "name": "word-wrap",
-      "href": "https://www.w3.org/TR/css-text-3/#overflow-wrap-property"
+      "spec": "https://www.w3.org/TR/css-text-3/#overflow-wrap-property",
+      "status": "normal | break-word"
     },
     {
       "name": "vertical-align",
-      "href": "https://drafts.csswg.org/css-inline/#transverse-alignment"
+      "spec": "https://drafts.csswg.org/css-inline/#transverse-alignment",
+      "status": "baseline | sub | super | text-top | text-bottom | middle | top | bottom | <percentage> | <length>"
     },
     {
       "name": "direction",
-      "href": "https://www.w3.org/TR/SVG/text.html#DirectionProperty"
+      "spec": "https://www.w3.org/TR/SVG/text.html#DirectionProperty",
+      "status": "ltr | rtl",
+      "description": "The `direction` attribute specifies the base writing direction of text and the direction of embeddings and overrides (see `[unicode-bidi](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/unicode-bidi)`) for the Unicode bidirectional algorithm. For the `direction` attribute to have any effect on an element that does not by itself establish a new text chunk (such as a [`<tspan>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/tspan \"Within a <text> element, text and font properties and the current text position can be adjusted with absolute or relative coordinate values by including a <tspan> element.\") element without absolute position adjustments due to `[x](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/x)` or `[y](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/y)` attributes), the `[unicode-bidi](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/unicode-bidi)` property's value must be embed or bidi-override."
     },
     {
       "name": "unicode-bidi",
-      "href": "https://www.w3.org/TR/css-writing-modes-3/#unicode-bidi"
+      "spec": "https://www.w3.org/TR/css-writing-modes-3/#unicode-bidi",
+      "status": "normal | embed | isolate | bidi-override | isolate-override | plaintext"
     },
     {
       "name": "writing-mode",
-      "href": "https://www.w3.org/TR/SVG/text.html#WritingModeProperty"
+      "spec": "https://www.w3.org/TR/SVG/text.html#WritingModeProperty",
+      "status": "horizontal-tb | vertical-rl | vertical-lr | sideways-rl | sideways-lr",
+      "description": "The `writing-mode` attribute specifies whether the initial inline-progression-direction for a [`<text>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/text \"The SVG <text> element defines a graphics element consisting of text. It's possible to apply a gradient, pattern, clipping path, mask, or filter to <text>, just like any other SVG graphics element.\") element shall be left-to-right, right-to-left, or top-to-bottom. The `writing-mode` attribute applies only to [`<text>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/text \"The SVG <text> element defines a graphics element consisting of text. It's possible to apply a gradient, pattern, clipping path, mask, or filter to <text>, just like any other SVG graphics element.\") elements; the attribute is ignored for [`<tspan>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/tspan \"Within a <text> element, text and font properties and the current text position can be adjusted with absolute or relative coordinate values by including a <tspan> element.\"), [`<tref>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/tref \"The textual content for a <text> SVG element can be either character data directly embedded within the <text> element or the character data content of a referenced element, where the referencing is specified with a <tref> element.\"), [`<altGlyph>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/altGlyph \"The <altGlyph> SVG element allows sophisticated selection of the glyphs used to render its child character data.\") and [`<textPath>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/textPath \"In addition to text drawn in a straight line, SVG also includes the ability to place text along the shape of a <path> element. To specify that a block of text is to be rendered along the shape of a <path>, include the given text within a <textPath> element which includes an href attribute with a reference to a <path> element.\") sub-elements. (Note that the inline-progression-direction can change within a [`<text>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/text \"The SVG <text> element defines a graphics element consisting of text. It's possible to apply a gradient, pattern, clipping path, mask, or filter to <text>, just like any other SVG graphics element.\") element due to the Unicode bidirectional algorithm and properties `[direction](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/direction)` and `[unicode-bidi](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/unicode-bidi)`."
     },
     {
       "name": "text-orientation",
-      "href": "https://www.w3.org/TR/css3-writing-modes/#text-orientation"
+      "spec": "https://www.w3.org/TR/css3-writing-modes/#text-orientation",
+      "status": "mixed | upright | sideways",
+      "browsers": [
+        "FF41",
+        "C48",
+        "O"
+      ]
     },
     {
       "name": "text-combine-upright",
-      "href": "https://www.w3.org/TR/css-writing-modes-3/#text-combine-upright"
+      "spec": "https://www.w3.org/TR/css-writing-modes-3/#text-combine-upright",
+      "status": "none | all | [ digits <integer>? ]"
     },
     {
       "name": "text-decoration",
-      "href": "https://www.w3.org/TR/SVG/text.html#TextDecorationProperties"
+      "spec": "https://www.w3.org/TR/SVG/text.html#TextDecorationProperties",
+      "status": "<'text-decoration-line'> || <'text-decoration-style'> || <'text-decoration-color'>",
+      "description": "The `text-decoration` attribute works exactly like the [`css text decoration`](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration \"The documentation about this has not yet been written; please consider contributing!\") property except that it's an attribute. See [`css text decoration`](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration \"The documentation about this has not yet been written; please consider contributing!\") for further information."
     },
     {
       "name": "text-decoration-line",
-      "href": "https://www.w3.org/TR/SVG/text.html#TextDecorationProperties"
+      "spec": "https://www.w3.org/TR/SVG/text.html#TextDecorationProperties",
+      "status": "none | [ underline || overline || line-through || blink ]",
+      "browsers": [
+        "FF36",
+        "S",
+        "C",
+        "O"
+      ]
     },
     {
       "name": "text-decoration-style",
-      "href": "https://www.w3.org/TR/SVG/text.html#TextDecorationProperties"
+      "spec": "https://www.w3.org/TR/SVG/text.html#TextDecorationProperties",
+      "status": "solid | double | dotted | dashed | wavy",
+      "browsers": [
+        "FF36",
+        "S",
+        "C57",
+        "O44"
+      ]
     },
     {
       "name": "text-decoration-color",
-      "href": "https://www.w3.org/TR/SVG/text.html#TextDecorationProperties"
+      "spec": "https://www.w3.org/TR/SVG/text.html#TextDecorationProperties",
+      "status": "<color>",
+      "browsers": [
+        "FF36",
+        "S",
+        "C57",
+        "O44"
+      ]
     },
     {
       "name": "object-fit",
-      "href": "https://www.w3.org/TR/css3-images/#the-object-fit"
+      "spec": "https://www.w3.org/TR/css3-images/#the-object-fit",
+      "status": "fill | contain | cover | none | scale-down",
+      "browsers": [
+        "E16",
+        "FF36",
+        "S10",
+        "C31",
+        "O19"
+      ]
     },
     {
       "name": "object-position",
-      "href": "https://www.w3.org/TR/css3-images/#the-object-position"
+      "spec": "https://www.w3.org/TR/css3-images/#the-object-position",
+      "status": "<position>",
+      "browsers": [
+        "E16",
+        "FF36",
+        "S10",
+        "C31",
+        "O19"
+      ]
     },
     {
       "name": "outline",
-      "href": "https://www.w3.org/TR/CSS21/ui.html#propdef-outline"
+      "spec": "https://www.w3.org/TR/CSS21/ui.html#propdef-outline",
+      "status": "[ <'outline-color'> || <'outline-style'> || <'outline-width'> ]"
     },
     {
       "name": "position",
-      "href": "https://www.w3.org/TR/CSS21/visuren.html#propdef-position"
+      "spec": "https://www.w3.org/TR/CSS21/visuren.html#propdef-position",
+      "status": "static | relative | absolute | sticky | fixed"
     },
     {
       "name": "text-transform",
-      "href": "https://www.w3.org/TR/CSS21/text.html#propdef-text-transform"
+      "spec": "https://www.w3.org/TR/CSS21/text.html#propdef-text-transform",
+      "status": "none | capitalize | uppercase | lowercase | full-width"
     },
     {
       "name": "border-top-style",
-      "href": "https://www.w3.org/TR/CSS21/box.html#propdef-border-top-style"
+      "spec": "https://www.w3.org/TR/CSS21/box.html#propdef-border-top-style",
+      "status": "<line-style>"
     },
     {
       "name": "border-style",
-      "href": "https://www.w3.org/TR/CSS21/box.html#propdef-border-style"
+      "spec": "https://www.w3.org/TR/CSS21/box.html#propdef-border-style",
+      "status": "<line-style>{1,4}"
     },
     {
       "name": "float",
-      "href": "https://www.w3.org/TR/CSS21/visuren.html#propdef-float"
+      "spec": "https://www.w3.org/TR/CSS21/visuren.html#propdef-float",
+      "status": "left | right | none | inline-start | inline-end"
     },
     {
       "name": "margin-top",
-      "href": "https://www.w3.org/TR/CSS21/box.html#propdef-margin-top"
+      "spec": "https://www.w3.org/TR/CSS21/box.html#propdef-margin-top",
+      "status": "<length> | <percentage> | auto"
     },
     {
       "name": "content",
-      "href": "https://www.w3.org/TR/CSS21/generate.html#propdef-content"
+      "spec": "https://www.w3.org/TR/CSS21/generate.html#propdef-content",
+      "status": "normal | none | [ <content-replacement> | <content-list> ] [/ <string> ]?"
     },
     {
       "name": "transform-box",
-      "href": "https://drafts.csswg.org/css-transforms/#transform-box"
+      "spec": "https://drafts.csswg.org/css-transforms/#transform-box",
+      "status": "border-box | fill-box | view-box",
+      "browsers": [
+        "FF55",
+        "C64",
+        "O51"
+      ]
     },
     {
       "name": "transform-origin",
-      "href": "https://drafts.csswg.org/css-transforms/#transform-origin-property"
+      "spec": "https://drafts.csswg.org/css-transforms/#transform-origin-property",
+      "status": "[ <length-percentage> | left | center | right | top | bottom ] | [ [ <length-percentage> | left | center | right ] && [ <length-percentage> | top | center | bottom ] ] <length>?"
     },
     {
       "name": "will-change",
-      "href": "https://drafts.csswg.org/css-will-change/#will-change"
+      "spec": "https://drafts.csswg.org/css-will-change/#will-change",
+      "status": "auto | <animateable-feature>#",
+      "browsers": [
+        "FF36",
+        "S9.1",
+        "C36",
+        "O24"
+      ]
     },
     {
       "name": "background",
-      "href": "https://drafts.csswg.org/css-backgrounds-3/#background"
+      "spec": "https://drafts.csswg.org/css-backgrounds-3/#background",
+      "status": "[ <bg-layer> , ]* <final-bg-layer>"
     },
     {
       "name": "min-width",
-      "href": "https://www.w3.org/TR/CSS21/visudet.html#propdef-min-width"
+      "spec": "https://www.w3.org/TR/CSS21/visudet.html#propdef-min-width",
+      "status": "<length> | <percentage> | auto | max-content | min-content | fit-content | fill-available"
     },
     {
       "name": "max-width",
-      "href": "https://www.w3.org/TR/CSS21/visudet.html#propdef-max-width"
+      "spec": "https://www.w3.org/TR/CSS21/visudet.html#propdef-max-width",
+      "status": "<length> | <percentage> | none | max-content | min-content | fit-content | fill-available"
     },
     {
       "name": "block-size",
-      "href": "https://www.w3.org/TR/SVG/http://dev.w3.org/csswg/css-writing-modes/#block-size"
+      "spec": "https://www.w3.org/TR/SVG/http://dev.w3.org/csswg/css-writing-modes/#block-size",
+      "status": "<'width'>",
+      "browsers": [
+        "FF41",
+        "C57",
+        "O44"
+      ]
     },
     {
       "name": "shape-outside",
-      "href": "https://www.w3.org/TR/css-shapes/#shape-outside-property"
+      "spec": "https://www.w3.org/TR/css-shapes/#shape-outside-property",
+      "status": "none | <shape-box> || <basic-shape> | <image>",
+      "browsers": [
+        "FF62",
+        "S10.1",
+        "C37",
+        "O24"
+      ]
     }
   ]
 }

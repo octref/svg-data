@@ -2,6 +2,7 @@ const bcd = require('mdn-browser-compat-data')
 
 import * as fs from 'fs'
 import * as path from 'path'
+import { CSSProperty } from './svg-spec';
 
 const el = bcd.svg.elements as any
 const at = bcd.svg.attributes as any
@@ -50,5 +51,13 @@ function cssExport() {
   fs.writeFileSync(path.resolve(__dirname, '../data/svg-properties.json'), serializedProperties)
 }
 
-htmlExport()
-cssExport()
+// htmlExport()
+// cssExport()
+
+
+/**
+ * In 
+ */
+function addMDNData(properties: Partial<CSSProperty>[]) {
+
+}

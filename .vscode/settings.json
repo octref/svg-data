@@ -4,5 +4,13 @@
   ],
   "css.experimental.customData": [
     "./data/svg-css-contribution.json"
+  ],
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "**/data/svg-css-contribution.json"
+      ],
+      "url": "./schema/css.json"
+    }
   ]
 }

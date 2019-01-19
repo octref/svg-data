@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "vscode-css-customdata",
+  "title": "VS Code CSS Custom Data format",
+  "description": "Format for loading Custom Data in VS Code's CSS support",
+  "type": "object",
+  "properties": {
+    "properties": {
+      "description": "Custom CSS properties",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "spec": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          },
+          "browsers": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}
