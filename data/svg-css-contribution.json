@@ -80,7 +80,8 @@
         "FF41",
         "C57",
         "O44"
-      ]
+      ],
+      "description": "The **`inline-size`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS \"CSS\") property defines the horizontal or vertical size of an element's block, depending on its writing mode. It corresponds to either the [`width`](https://developer.mozilla.org/en-US/docs/Web/CSS/width \"The width CSS property sets an element's width. By default it sets the width of the content area, but if box-sizing is set to border-box, it sets the width of the border area.\") or the [`height`](https://developer.mozilla.org/en-US/docs/Web/CSS/height \"The height CSS property specifies the height of an element. By default, the property defines the height of the content area. If box-sizing is set to border-box, however, it instead determines the height of the border area.\") property, depending on the value of [`writing-mode`](https://developer.mozilla.org/en-US/docs/Web/CSS/writing-mode \"The writing-mode CSS property sets whether lines of text are laid out horizontally or vertically, as well as the direction in which blocks progress.\")."
     },
     {
       "name": "marker",
@@ -287,7 +288,8 @@
     {
       "name": "line-height",
       "spec": "https://www.w3.org/TR/SVG/text.html#LineHeightProperty",
-      "status": "normal | <number> | <length> | <percentage>"
+      "status": "normal | <number> | <length> | <percentage>",
+      "description": "The **`line-height`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property sets the amount of space used for lines, such as in text. On block-level elements, it specifies the minimum height of line boxes within the element. On non-[replaced](https://developer.mozilla.org/en-US/docs/Web/CSS/Replaced_element) inline elements, it specifies the height that is used to calculate line box height."
     },
     {
       "name": "shape-image-threshold",
@@ -298,7 +300,8 @@
         "S10.1",
         "C37",
         "O24"
-      ]
+      ],
+      "description": "The **`shape-image-threshold`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property sets the alpha channel threshold used to extract the shape using an image as the value for [`shape-outside`](https://developer.mozilla.org/en-US/docs/Web/CSS/shape-outside \"The shape-outside CSS property defines a shape—which may be non-rectangular—around which adjacent inline content should wrap.\")."
     },
     {
       "name": "shape-inside",
@@ -313,7 +316,8 @@
         "S10.1",
         "C37",
         "O24"
-      ]
+      ],
+      "description": "The **`shape-margin`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property sets a margin for a CSS shape created using [`shape-outside`](https://developer.mozilla.org/en-US/docs/Web/CSS/shape-outside \"The shape-outside CSS property defines a shape—which may be non-rectangular—around which adjacent inline content should wrap.\")."
     },
     {
       "name": "shape-subtract",
@@ -326,7 +330,8 @@
     {
       "name": "text-overflow",
       "spec": "https://www.w3.org/TR/SVG/text.html#TextOverflowProperty",
-      "status": "[ clip | ellipsis | <string> ]{1,2}"
+      "status": "[ clip | ellipsis | <string> ]{1,2}",
+      "description": "The **`text-overflow`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property sets how hidden overflow content is signaled to users. It can be clipped, display an ellipsis ('`…`'), or display a custom string."
     },
     {
       "name": "font-kerning",
@@ -336,12 +341,14 @@
         "FF32",
         "S7",
         "C32"
-      ]
+      ],
+      "description": "The **`font-kerning`** CSS property sets the use of the kerning information stored in a font."
     },
     {
       "name": "font",
       "spec": "https://www.w3.org/TR/css-fonts-3/#font-prop",
-      "status": "[ [ <'font-style'> || <font-variant-css21> || <'font-weight'> || <'font-stretch'> ]? <'font-size'> [ / <'line-height'> ]? <'font-family'> ] | caption | icon | menu | message-box | small-caption | status-bar"
+      "status": "[ [ <'font-style'> || <font-variant-css21> || <'font-weight'> || <'font-stretch'> ]? <'font-size'> [ / <'line-height'> ]? <'font-family'> ] | caption | icon | menu | message-box | small-caption | status-bar",
+      "description": "The **`font`** CSS property is a shorthand for [`font-style`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-style \"The font-style CSS property sets whether a font should be styled with a normal, italic, or oblique face from its font-family.\"), [`font-variant`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant \"The font-variant CSS property is a shorthand for the longhand properties font-variant-caps, font-variant-numeric, font-variant-alternates, font-variant-ligatures, and font-variant-east-asian. You can also set the CSS Level 2 (Revision 1) values of font-variant, (that is, normal or small-caps), by using the font shorthand.\"), [`font-weight`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight \"The font-weight CSS property specifies the weight (or boldness) of the font. The font weights available to you will depend on the font-family you are using. Some fonts are only available in normal and bold.\"), [`font-size`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-size \"The font-size CSS property sets the size of the font.\"), [`line-height`](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height \"The line-height CSS property sets the amount of space used for lines, such as in text. On block-level elements, it specifies the minimum height of line boxes within the element. On non-replaced inline elements, it specifies the height that is used to calculate line box height.\"), and [`font-family`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family \"The font-family CSS property specifies a prioritized list of one or more font family names and/or generic family names for the selected element.\"). Alternatively, it sets an element's font to a system font."
     },
     {
       "name": "font-family",
@@ -352,7 +359,8 @@
     {
       "name": "font-feature-settings",
       "spec": "https://www.w3.org/TR/css-fonts-3/#font-feature-settings-prop",
-      "status": "normal | <feature-tag-value>#"
+      "status": "normal | <feature-tag-value>#",
+      "description": "The **`font-feature-settings`** CSS property controls advanced typographic features in OpenType fonts."
     },
     {
       "name": "font-size",
@@ -398,7 +406,8 @@
         "S9.1",
         "C34",
         "O21"
-      ]
+      ],
+      "description": "The **`font-variant-ligatures`** CSS property controls which [ligatures](https://developer.mozilla.org/en-US/docs/Glossary/ligature \"ligatures: A ligature is a joining of two characters into one shape. For example, in French \"œ\" is a ligature of \"oe\".\") and [contextual forms](https://developer.mozilla.org/en-US/docs/Glossary/contextual_forms \"The definition of that term (contextual forms) has not been written yet; please consider contributing it!\") are used in textual content of the elements it applies to. This leads to more harmonized forms in the resulting text."
     },
     {
       "name": "font-weight",
@@ -412,12 +421,14 @@
       "status": "none | [ first || [ force-end | allow-end ] || last ]",
       "browsers": [
         "S10"
-      ]
+      ],
+      "description": "The **`hanging-punctuation`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property specifies whether a punctuation mark should hang at the start or end of a line of text."
     },
     {
       "name": "hyphens",
       "spec": "https://www.w3.org/TR/css-text-3/#hyphens-property",
-      "status": "none | manual | auto"
+      "status": "none | manual | auto",
+      "description": "The **`hyphens`** [CSS](https://developer.mozilla.org/en-US/docs/CSS) property specifies how words should be hyphenated when text wraps across multiple lines. You can prevent hyphenation entirely, use hyphenation in manually-specified points within the text, or let the browser automatically insert hyphens where appropriate."
     },
     {
       "name": "letter-spacing",
@@ -435,12 +446,14 @@
         "C58",
         "IE5.5",
         "O45"
-      ]
+      ],
+      "description": "The **`line-break`** CSS property sets how to break lines of Chinese, Japanese, or Korean (CJK) text when working with punctuation and symbols."
     },
     {
       "name": "overflow-wrap",
       "spec": "https://www.w3.org/TR/css-text-3/#overflow-wrap-property",
-      "status": "normal | break-word | anywhere"
+      "status": "normal | break-word | anywhere",
+      "description": "The `**overflow-wrap**` [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property sets whether the browser should insert line breaks within words to prevent text from overflowing its content box."
     },
     {
       "name": "tab-size",
@@ -451,12 +464,14 @@
         "S6.1",
         "C21",
         "O15"
-      ]
+      ],
+      "description": "The **`tab-size`** CSS property is used to customize the width of a tab (`U+0009`) character."
     },
     {
       "name": "text-align",
       "spec": "https://www.w3.org/TR/css-text-3/#text-align-property",
-      "status": "start | end | left | right | center | justify | match-parent"
+      "status": "start | end | left | right | center | justify | match-parent",
+      "description": "The **`text-align`** CSS property sets the horizontal alignment of an inline or table-cell box. This means it works like [`vertical-align`](https://developer.mozilla.org/en-US/docs/Web/CSS/vertical-align \"The vertical-align CSS property sets vertical alignment of an inline or table-cell box.\") but in the horizontal direction."
     },
     {
       "name": "text-align-last",
@@ -468,12 +483,14 @@
         "C47",
         "IE",
         "O"
-      ]
+      ],
+      "description": "The **`text-align-last`** CSS property sets how the last line of a block or a line, right before a forced line break, is aligned."
     },
     {
       "name": "text-indent",
       "spec": "https://www.w3.org/TR/css-text-3/#text-indent-property",
-      "status": "<length-percentage> && hanging? && each-line?"
+      "status": "<length-percentage> && hanging? && each-line?",
+      "description": "The **`text-indent`** CSS property sets the length of empty space (indentation) that is put before lines of text in a block."
     },
     {
       "name": "text-justify",
@@ -485,22 +502,26 @@
         "C",
         "IE11",
         "O"
-      ]
+      ],
+      "description": "The **`text-justify`** CSS property sets what type of justification should be applied to text when [`text-align`](https://developer.mozilla.org/en-US/docs/Web/CSS/text-align \"The text-align CSS property sets the horizontal alignment of an inline or table-cell box. This means it works like vertical-align but in the horizontal direction.\")`: justify;` is set on an element."
     },
     {
       "name": "text-transform",
       "spec": "https://www.w3.org/TR/css-text-3/#text-transform-property",
-      "status": "none | capitalize | uppercase | lowercase | full-width"
+      "status": "none | capitalize | uppercase | lowercase | full-width",
+      "description": "The **`text-transform`** CSS property specifies how to capitalize an element's text. It can be used to make text appear in all-uppercase or all-lowercase, or with each word capitalized. It also can help improve legibility for ruby"
     },
     {
       "name": "white-space",
       "spec": "https://www.w3.org/TR/css-text-3/#white-space-property",
-      "status": "normal | pre | nowrap | pre-wrap | pre-line"
+      "status": "normal | pre | nowrap | pre-wrap | pre-line",
+      "description": "The **`white-space`** CSS property sets how white space inside an element is handled."
     },
     {
       "name": "word-break",
       "spec": "https://www.w3.org/TR/css-text-3/#word-break-property",
-      "status": "normal | break-all | keep-all | break-word"
+      "status": "normal | break-all | keep-all | break-word",
+      "description": "The **`word-break`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property sets whether line breaks appear wherever the text would otherwise overflow its content box."
     },
     {
       "name": "word-spacing",
@@ -516,7 +537,8 @@
     {
       "name": "vertical-align",
       "spec": "https://drafts.csswg.org/css-inline/#transverse-alignment",
-      "status": "baseline | sub | super | text-top | text-bottom | middle | top | bottom | <percentage> | <length>"
+      "status": "baseline | sub | super | text-top | text-bottom | middle | top | bottom | <percentage> | <length>",
+      "description": "The **`vertical-align`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property sets vertical alignment of an inline or table-cell box."
     },
     {
       "name": "direction",
@@ -527,7 +549,8 @@
     {
       "name": "unicode-bidi",
       "spec": "https://www.w3.org/TR/css-writing-modes-3/#unicode-bidi",
-      "status": "normal | embed | isolate | bidi-override | isolate-override | plaintext"
+      "status": "normal | embed | isolate | bidi-override | isolate-override | plaintext",
+      "description": "The **`unicode-bidi`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property, together with the [`direction`](https://developer.mozilla.org/en-US/docs/Web/CSS/direction \"The direction CSS property sets the direction of text, table columns, and horizontal overflow.\") property, determines how bidirectional text in a document is handled. For example, if a block of content contains both left-to-right and right-to-left text, the user-agent uses a complex Unicode algorithm to decide how to display the text. The `unicode-bidi` property overrides this algorithm and allows the developer to control the text embedding."
     },
     {
       "name": "writing-mode",
@@ -543,12 +566,14 @@
         "FF41",
         "C48",
         "O"
-      ]
+      ],
+      "description": "The **`text-orientation`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property sets the orientation of the text characters in a line. It only affects text in vertical mode (when [`writing-mode`](https://developer.mozilla.org/en-US/docs/Web/CSS/writing-mode \"The writing-mode CSS property sets whether lines of text are laid out horizontally or vertically, as well as the direction in which blocks progress.\") is not `horizontal-tb`)."
     },
     {
       "name": "text-combine-upright",
       "spec": "https://www.w3.org/TR/css-writing-modes-3/#text-combine-upright",
-      "status": "none | all | [ digits <integer>? ]"
+      "status": "none | all | [ digits <integer>? ]",
+      "description": "The **`text-combine-upright`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property sets the combination of characters into the space of a single character."
     },
     {
       "name": "text-decoration",
@@ -565,7 +590,8 @@
         "S",
         "C",
         "O"
-      ]
+      ],
+      "description": "The **`text-decoration-line`** [CSS](https://developer.mozilla.org/en-US/docs/CSS) property sets the kind of decoration that is used on text in an element, such as an underline or overline."
     },
     {
       "name": "text-decoration-style",
@@ -576,7 +602,8 @@
         "S",
         "C57",
         "O44"
-      ]
+      ],
+      "description": "The **`text-decoration-style`** [CSS](https://developer.mozilla.org/en-US/docs/CSS) property sets the style of the lines specified by [`text-decoration-line`](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-line \"The text-decoration-line CSS property sets the kind of decoration that is used on text in an element, such as an underline or overline.\"). The style applies to all lines that are set with `text-decoration-line`."
     },
     {
       "name": "text-decoration-color",
@@ -587,7 +614,8 @@
         "S",
         "C57",
         "O44"
-      ]
+      ],
+      "description": "The **`text-decoration-color`** [CSS](https://developer.mozilla.org/en-US/docs/CSS) property sets the color of decorations added to text by [`text-decoration-line`](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-line \"The text-decoration-line CSS property sets the kind of decoration that is used on text in an element, such as an underline or overline.\")."
     },
     {
       "name": "object-fit",
@@ -599,7 +627,8 @@
         "S10",
         "C31",
         "O19"
-      ]
+      ],
+      "description": "The **`object-fit`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property sets how the content of a [replaced element](https://developer.mozilla.org/en-US/docs/Web/CSS/Replaced_element), such as an [`<img>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img \"The HTML <img> element embeds an image into the document. It is a replaced element.\") or [`<video>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video \"The HTML Video element (<video>) embeds a media player which supports video playback into the document.\"), should be resized to fit its container."
     },
     {
       "name": "object-position",
@@ -611,47 +640,56 @@
         "S10",
         "C31",
         "O19"
-      ]
+      ],
+      "description": "The **`object-position`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property specifies the alignment of the selected [replaced element](https://developer.mozilla.org/en-US/docs/Web/CSS/Replaced_element)'s contents within the element's box."
     },
     {
       "name": "outline",
       "spec": "https://www.w3.org/TR/CSS21/ui.html#propdef-outline",
-      "status": "[ <'outline-color'> || <'outline-style'> || <'outline-width'> ]"
+      "status": "[ <'outline-color'> || <'outline-style'> || <'outline-width'> ]",
+      "description": "The **`outline`** [CSS](https://developer.mozilla.org/en-US/docs/CSS) property is a [shorthand](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties) to set various outline properties in a single declaration: [`outline-style`](https://developer.mozilla.org/en-US/docs/Web/CSS/outline-style \"The outline-style CSS property sets the style of an element's outline. An outline is a line that is drawn around an element, outside the border.\"), [`outline-width`](https://developer.mozilla.org/en-US/docs/Web/CSS/outline-width \"The outline-width CSS property sets the thickness of an element's outline. An outline is a line that is drawn around an element, outside the border.\"), and [`outline-color`](https://developer.mozilla.org/en-US/docs/Web/CSS/outline-color \"The outline-color CSS property sets the color of an element's outline.\")."
     },
     {
       "name": "position",
       "spec": "https://www.w3.org/TR/CSS21/visuren.html#propdef-position",
-      "status": "static | relative | absolute | sticky | fixed"
+      "status": "static | relative | absolute | sticky | fixed",
+      "description": "The **`position`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS \"CSS\") property sets how an element is positioned in a document. The [`top`](https://developer.mozilla.org/en-US/docs/Web/CSS/top \"The top CSS property participates in specifying the vertical position of a positioned element. It has no effect on non-positioned elements.\"), [`right`](https://developer.mozilla.org/en-US/docs/Web/CSS/right \"The right CSS property participates in specifying the horizontal position of a positioned element. It has no effect on non-positioned elements.\"), [`bottom`](https://developer.mozilla.org/en-US/docs/Web/CSS/bottom \"The bottom CSS property participates in specifying the vertical position of a positioned element. It has no effect on non-positioned elements.\"), and [`left`](https://developer.mozilla.org/en-US/docs/Web/CSS/left \"The left CSS property participates in specifying the horizontal position of a positioned element. It has no effect on non-positioned elements.\") properties determine the final location of positioned elements."
     },
     {
       "name": "text-transform",
       "spec": "https://www.w3.org/TR/CSS21/text.html#propdef-text-transform",
-      "status": "none | capitalize | uppercase | lowercase | full-width"
+      "status": "none | capitalize | uppercase | lowercase | full-width",
+      "description": "The **`text-transform`** CSS property specifies how to capitalize an element's text. It can be used to make text appear in all-uppercase or all-lowercase, or with each word capitalized. It also can help improve legibility for ruby"
     },
     {
       "name": "border-top-style",
       "spec": "https://www.w3.org/TR/CSS21/box.html#propdef-border-top-style",
-      "status": "<line-style>"
+      "status": "<line-style>",
+      "description": "The **`border-top-style`** [CSS](https://developer.mozilla.org/en/CSS) property sets the line style of an element's top [`border`](https://developer.mozilla.org/en-US/docs/Web/CSS/border \"The border CSS property sets an element's border. It's a shorthand for border-width, border-style, and border-color.\")."
     },
     {
       "name": "border-style",
       "spec": "https://www.w3.org/TR/CSS21/box.html#propdef-border-style",
-      "status": "<line-style>{1,4}"
+      "status": "<line-style>{1,4}",
+      "description": "The **`border-style`** [CSS](https://developer.mozilla.org/en/CSS \"CSS\") property is a [shorthand property](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties) that sets the line style for all four sides of an element's border."
     },
     {
       "name": "float",
       "spec": "https://www.w3.org/TR/CSS21/visuren.html#propdef-float",
-      "status": "left | right | none | inline-start | inline-end"
+      "status": "left | right | none | inline-start | inline-end",
+      "description": "The **`float`** CSS property places an element on the left or right side of its container, allowing text and inline elements to wrap around it."
     },
     {
       "name": "margin-top",
       "spec": "https://www.w3.org/TR/CSS21/box.html#propdef-margin-top",
-      "status": "<length> | <percentage> | auto"
+      "status": "<length> | <percentage> | auto",
+      "description": "The **`margin-top`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property sets the [margin area](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model) on the top of an element. A positive value places it farther from its neighbors, while a negative value places it closer."
     },
     {
       "name": "content",
       "spec": "https://www.w3.org/TR/CSS21/generate.html#propdef-content",
-      "status": "normal | none | [ <content-replacement> | <content-list> ] [/ <string> ]?"
+      "status": "normal | none | [ <content-replacement> | <content-list> ] [/ <string> ]?",
+      "description": "The **`content`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property replaces an element with a generated value. Objects inserted using the `content` property are _anonymous [replaced elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Replaced_element)._"
     },
     {
       "name": "transform-box",
@@ -661,12 +699,14 @@
         "FF55",
         "C64",
         "O51"
-      ]
+      ],
+      "description": "The **`transform-box`** CSS property defines the layout box to which the [`transform`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform \"The transform CSS property lets you rotate, scale, skew, or translate an element. It modifies the coordinate space of the CSS visual formatting model.\") and [`transform-origin`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin \"The transform-origin CSS property sets the origin for an element's transformations.\") properties relate."
     },
     {
       "name": "transform-origin",
       "spec": "https://drafts.csswg.org/css-transforms/#transform-origin-property",
-      "status": "[ <length-percentage> | left | center | right | top | bottom ] | [ [ <length-percentage> | left | center | right ] && [ <length-percentage> | top | center | bottom ] ] <length>?"
+      "status": "[ <length-percentage> | left | center | right | top | bottom ] | [ [ <length-percentage> | left | center | right ] && [ <length-percentage> | top | center | bottom ] ] <length>?",
+      "description": "The **`transform-origin`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property sets the origin for an element's transformations."
     },
     {
       "name": "will-change",
@@ -677,22 +717,26 @@
         "S9.1",
         "C36",
         "O24"
-      ]
+      ],
+      "description": "The **`will-change`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property hints to browsers how an element is expected to change. Browsers may set up optimizations before an element is actually changed."
     },
     {
       "name": "background",
       "spec": "https://drafts.csswg.org/css-backgrounds-3/#background",
-      "status": "[ <bg-layer> , ]* <final-bg-layer>"
+      "status": "[ <bg-layer> , ]* <final-bg-layer>",
+      "description": "The **`background`** shorthand [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property sets all background style properties at once, such as color, image, origin and size, or repeat method."
     },
     {
       "name": "min-width",
       "spec": "https://www.w3.org/TR/CSS21/visudet.html#propdef-min-width",
-      "status": "<length> | <percentage> | auto | max-content | min-content | fit-content | fill-available"
+      "status": "<length> | <percentage> | auto | max-content | min-content | fit-content | fill-available",
+      "description": "The **`min-width`** [CSS](https://developer.mozilla.org/en-US/docs/CSS) property sets the minimum width of an element. It prevents the [used value](https://developer.mozilla.org/en-US/docs/Web/CSS/used_value) of the [`width`](https://developer.mozilla.org/en-US/docs/Web/CSS/width \"The width CSS property sets an element's width. By default it sets the width of the content area, but if box-sizing is set to border-box, it sets the width of the border area.\") property from becoming smaller than the value specified for `min-width`."
     },
     {
       "name": "max-width",
       "spec": "https://www.w3.org/TR/CSS21/visudet.html#propdef-max-width",
-      "status": "<length> | <percentage> | none | max-content | min-content | fit-content | fill-available"
+      "status": "<length> | <percentage> | none | max-content | min-content | fit-content | fill-available",
+      "description": "The **`max-width`** [CSS](https://developer.mozilla.org/en-US/docs/CSS) property sets the maximum width of an element. It prevents the [used value](https://developer.mozilla.org/en-US/docs/Web/CSS/used_value) of the [`width`](https://developer.mozilla.org/en-US/docs/Web/CSS/width \"The width CSS property sets an element's width. By default it sets the width of the content area, but if box-sizing is set to border-box, it sets the width of the border area.\") property from becoming larger than the value specified by `max-width`."
     },
     {
       "name": "block-size",
@@ -702,7 +746,8 @@
         "FF41",
         "C57",
         "O44"
-      ]
+      ],
+      "description": "The **`block-size`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS \"CSS\") property defines the horizontal or vertical size of an element's block, depending on its writing mode. It corresponds to either the [`width`](https://developer.mozilla.org/en-US/docs/Web/CSS/width \"The width CSS property sets an element's width. By default it sets the width of the content area, but if box-sizing is set to border-box, it sets the width of the border area.\") or the [`height`](https://developer.mozilla.org/en-US/docs/Web/CSS/height \"The height CSS property specifies the height of an element. By default, the property defines the height of the content area. If box-sizing is set to border-box, however, it instead determines the height of the border area.\") property, depending on the value of [`writing-mode`](https://developer.mozilla.org/en-US/docs/Web/CSS/writing-mode \"The writing-mode CSS property sets whether lines of text are laid out horizontally or vertically, as well as the direction in which blocks progress.\")."
     },
     {
       "name": "shape-outside",
@@ -713,7 +758,8 @@
         "S10.1",
         "C37",
         "O24"
-      ]
+      ],
+      "description": "The **`shape-outside`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property defines a shape—which may be non-rectangular—around which adjacent inline content should wrap."
     }
   ]
 }

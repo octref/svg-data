@@ -35,8 +35,15 @@ async function getMDNHTMLDescription(name: string, type: PropertyType): Promise<
         return svgres.body.summary
       }
     } catch (err) {
-      return null
+      const cssres = await got(`https://developer.mozilla.org/en-US/docs/Web/CSS/${name}$json`, {
+        json: true
+      })
+      if (cssres.body && cssres.body.summary) {
+        return cssres.body.summary
+      }
     }
+
+    return null
   }
 }
 
