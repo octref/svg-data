@@ -7,7 +7,7 @@ import * as cheerio from 'cheerio'
 
 interface Element {
   name: string
-  href: string
+  spec: string
   description?: string
   attributes: Attribute[]
   attributeCategories: string[]
@@ -15,13 +15,13 @@ interface Element {
 
 interface Attribute {
   name: string
-  href: string
+  spec: string
   description?: string
 }
 
 interface AttributeCategory {
   name: string
-  href: string
+  spec: string
   attributes: Attribute[]
 }
 
@@ -63,14 +63,14 @@ export function getSVGSpec() {
   $('definitions > attribute').each((_, e) => {
     globalAttributes.push({
       name: e.attribs['name'],
-      href: handleHref(e.attribs['href'])
+      spec: handleHref(e.attribs['href'])
     })
   })
 
   $('attributecategory').each((_, e) => {
     const attrCate = {
       name: e.attribs['name'],
-      href: handleHref(e.attribs['href']),
+      spec: handleHref(e.attribs['href']),
       attributes: []
     }
 
@@ -79,7 +79,7 @@ export function getSVGSpec() {
       .each((_, e) => {
         attrCate.attributes.push({
           name: e.attribs['name'],
-          href: handleHref(e.attribs['href'])
+          spec: handleHref(e.attribs['href'])
         })
       })
 
@@ -89,7 +89,7 @@ export function getSVGSpec() {
   $('element').each((_, e) => {
     const el = {
       name: e.attribs['name'],
-      href: handleHref(e.attribs['href']),
+      spec: handleHref(e.attribs['href']),
       attributes: [],
       attributeCategories: []
     }

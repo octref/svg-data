@@ -1,9 +1,8 @@
 {
-  "version": "0.1.0",
   "tags": [
     {
       "name": "a",
-      "href": "https://www.w3.org/TR/SVG/linking.html#AElement",
+      "spec": "https://www.w3.org/TR/SVG/linking.html#AElement",
       "attributes": [
         {
           "name": "href",
@@ -12,28 +11,23 @@
         },
         {
           "name": "target",
-          "href": "https://www.w3.org/TR/SVG/linking.html#AElementTargetAttribute",
-          "description": null
+          "href": "https://www.w3.org/TR/SVG/linking.html#AElementTargetAttribute"
         },
         {
           "name": "download",
-          "href": "https://www.w3.org/TR/SVG/linking.html#AElementDownloadAttribute",
-          "description": null
+          "href": "https://www.w3.org/TR/SVG/linking.html#AElementDownloadAttribute"
         },
         {
           "name": "ping",
-          "href": "https://www.w3.org/TR/SVG/linking.html#AElementPingAttribute",
-          "description": null
+          "href": "https://www.w3.org/TR/SVG/linking.html#AElementPingAttribute"
         },
         {
           "name": "rel",
-          "href": "https://www.w3.org/TR/SVG/linking.html#AElementRelAttribute",
-          "description": null
+          "href": "https://www.w3.org/TR/SVG/linking.html#AElementRelAttribute"
         },
         {
           "name": "hreflang",
-          "href": "https://www.w3.org/TR/SVG/linking.html#AElementHreflangAttribute",
-          "description": null
+          "href": "https://www.w3.org/TR/SVG/linking.html#AElementHreflangAttribute"
         },
         {
           "name": "type",
@@ -42,8 +36,7 @@
         },
         {
           "name": "referrerpolicy",
-          "href": "https://www.w3.org/TR/SVG/linking.html#AElementReferrerpolicyAttribute",
-          "description": null
+          "href": "https://www.w3.org/TR/SVG/linking.html#AElementReferrerpolicyAttribute"
         }
       ],
       "attributeCategories": [
@@ -60,7 +53,7 @@
     },
     {
       "name": "audio",
-      "href": "https://www.w3.org/TR/SVG/embedded.html#HTMLElements",
+      "spec": "https://www.w3.org/TR/SVG/embedded.html#HTMLElements",
       "attributes": [],
       "attributeCategories": [
         "aria",
@@ -71,15 +64,16 @@
         "graphical event",
         "presentation"
       ],
-      "description": "The **HTML `<audio>` element** is used to embed sound content in documents. It may contain one or more audio sources, represented using the `src` attribute or the [`<source>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source \"The HTML <source> element specifies multiple media resources for the <picture>, the <audio> element, or the <video> element. It is an empty element. It is commonly used to serve the same media content in multiple formats supported by different browsers.\") element: the browser will choose the most suitable one. It can also be the destination for streamed media, using a [`MediaStream`](https://developer.mozilla.org/en-US/docs/Web/API/MediaStream \"The MediaStream interface represents a stream of media content. A stream consists of several tracks such as video or audio tracks. Each track is specified as an instance of MediaStreamTrack.\")."
+      "description": "The **HTML `<audio>` element** is used to embed sound content in documents. It may contain one or more audio sources, represented using the `src` attribute or the [`<source>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source \"The HTML <source> element specifies multiple media resources for the <picture>, the <audio> element, or the <video> element.\") element: the browser will choose the most suitable one. It can also be the destination for streamed media, using a [`MediaStream`](https://developer.mozilla.org/en-US/docs/Web/API/MediaStream \"The MediaStream interface represents a stream of media content. A stream consists of several tracks such as video or audio tracks. Each track is specified as an instance of MediaStreamTrack.\")."
     },
     {
       "name": "canvas",
-      "href": "https://www.w3.org/TR/SVG/embedded.html#HTMLElements",
+      "spec": "https://www.w3.org/TR/SVG/embedded.html#HTMLElements",
       "attributes": [
         {
           "name": "preserveAspectRatio",
-          "href": "https://www.w3.org/TR/SVG/coords.html#PreserveAspectRatioAttribute"
+          "spec": "https://www.w3.org/TR/SVG/coords.html#PreserveAspectRatioAttribute",
+          "description": "The **`preserveAspectRatio`** attribute indicates how an element with a viewBox providing a given aspect ratio must fit into a viewport with a different aspect ratio."
         }
       ],
       "attributeCategories": [
@@ -95,11 +89,12 @@
     },
     {
       "name": "circle",
-      "href": "https://www.w3.org/TR/SVG/shapes.html#CircleElement",
+      "spec": "https://www.w3.org/TR/SVG/shapes.html#CircleElement",
       "attributes": [
         {
           "name": "pathLength",
-          "href": "https://www.w3.org/TR/SVG/paths.html#PathLengthAttribute"
+          "spec": "https://www.w3.org/TR/SVG/paths.html#PathLengthAttribute",
+          "description": "The **`pathLength`** attribute lets authors specify a total length for the path, in user units. This value is then used to calibrate the browser's distance calculations with those of the author, by scaling all distance computations using the ratio `pathLength`/(_computed value of path length_)."
         }
       ],
       "attributeCategories": [
@@ -115,7 +110,7 @@
     },
     {
       "name": "defs",
-      "href": "https://www.w3.org/TR/SVG/struct.html#DefsElement",
+      "spec": "https://www.w3.org/TR/SVG/struct.html#DefsElement",
       "attributes": [],
       "attributeCategories": [
         "core",
@@ -128,7 +123,7 @@
     },
     {
       "name": "desc",
-      "href": "https://www.w3.org/TR/SVG/struct.html#DescElement",
+      "spec": "https://www.w3.org/TR/SVG/struct.html#DescElement",
       "attributes": [],
       "attributeCategories": [
         "core",
@@ -139,11 +134,12 @@
     },
     {
       "name": "ellipse",
-      "href": "https://www.w3.org/TR/SVG/shapes.html#EllipseElement",
+      "spec": "https://www.w3.org/TR/SVG/shapes.html#EllipseElement",
       "attributes": [
         {
           "name": "pathLength",
-          "href": "https://www.w3.org/TR/SVG/paths.html#PathLengthAttribute"
+          "spec": "https://www.w3.org/TR/SVG/paths.html#PathLengthAttribute",
+          "description": "The **`pathLength`** attribute lets authors specify a total length for the path, in user units. This value is then used to calibrate the browser's distance calculations with those of the author, by scaling all distance computations using the ratio `pathLength`/(_computed value of path length_)."
         }
       ],
       "attributeCategories": [
@@ -159,7 +155,7 @@
     },
     {
       "name": "foreignObject",
-      "href": "https://www.w3.org/TR/SVG/embedded.html#ForeignObjectElement",
+      "spec": "https://www.w3.org/TR/SVG/embedded.html#ForeignObjectElement",
       "attributes": [],
       "attributeCategories": [
         "aria",
@@ -174,7 +170,7 @@
     },
     {
       "name": "g",
-      "href": "https://www.w3.org/TR/SVG/struct.html#GElement",
+      "spec": "https://www.w3.org/TR/SVG/struct.html#GElement",
       "attributes": [],
       "attributeCategories": [
         "aria",
@@ -189,7 +185,7 @@
     },
     {
       "name": "unknown",
-      "href": "https://www.w3.org/TR/SVG/struct.html#UnknownElement",
+      "spec": "https://www.w3.org/TR/SVG/struct.html#UnknownElement",
       "attributes": [],
       "attributeCategories": [
         "aria",
@@ -199,12 +195,11 @@
         "document element event",
         "graphical event",
         "presentation"
-      ],
-      "description": null
+      ]
     },
     {
       "name": "iframe",
-      "href": "https://www.w3.org/TR/SVG/embedded.html#HTMLElements",
+      "spec": "https://www.w3.org/TR/SVG/embedded.html#HTMLElements",
       "attributes": [],
       "attributeCategories": [
         "aria",
@@ -219,11 +214,12 @@
     },
     {
       "name": "image",
-      "href": "https://www.w3.org/TR/SVG/embedded.html#ImageElement",
+      "spec": "https://www.w3.org/TR/SVG/embedded.html#ImageElement",
       "attributes": [
         {
           "name": "preserveAspectRatio",
-          "href": "https://www.w3.org/TR/SVG/coords.html#PreserveAspectRatioAttribute"
+          "spec": "https://www.w3.org/TR/SVG/coords.html#PreserveAspectRatioAttribute",
+          "description": "The **`preserveAspectRatio`** attribute indicates how an element with a viewBox providing a given aspect ratio must fit into a viewport with a different aspect ratio."
         },
         {
           "name": "href",
@@ -231,8 +227,7 @@
         },
         {
           "name": "crossorigin",
-          "href": "https://www.w3.org/TR/SVG/embedded.html#ImageElementCrossoriginAttribute",
-          "description": null
+          "href": "https://www.w3.org/TR/SVG/embedded.html#ImageElementCrossoriginAttribute"
         }
       ],
       "attributeCategories": [
@@ -249,11 +244,12 @@
     },
     {
       "name": "line",
-      "href": "https://www.w3.org/TR/SVG/shapes.html#LineElement",
+      "spec": "https://www.w3.org/TR/SVG/shapes.html#LineElement",
       "attributes": [
         {
           "name": "pathLength",
-          "href": "https://www.w3.org/TR/SVG/paths.html#PathLengthAttribute"
+          "spec": "https://www.w3.org/TR/SVG/paths.html#PathLengthAttribute",
+          "description": "The **`pathLength`** attribute lets authors specify a total length for the path, in user units. This value is then used to calibrate the browser's distance calculations with those of the author, by scaling all distance computations using the ratio `pathLength`/(_computed value of path length_)."
         },
         {
           "name": "x1",
@@ -289,7 +285,7 @@
     },
     {
       "name": "linearGradient",
-      "href": "https://www.w3.org/TR/SVG/pservers.html#LinearGradientElement",
+      "spec": "https://www.w3.org/TR/SVG/pservers.html#LinearGradientElement",
       "attributes": [
         {
           "name": "x1",
@@ -338,15 +334,17 @@
     },
     {
       "name": "marker",
-      "href": "https://www.w3.org/TR/SVG/painting.html#MarkerElement",
+      "spec": "https://www.w3.org/TR/SVG/painting.html#MarkerElement",
       "attributes": [
         {
           "name": "viewBox",
-          "href": "https://www.w3.org/TR/SVG/coords.html#ViewBoxAttribute"
+          "spec": "https://www.w3.org/TR/SVG/coords.html#ViewBoxAttribute",
+          "description": "The **`viewBox`** attribute defines the position and dimension, in user space, of an SVG viewport."
         },
         {
           "name": "preserveAspectRatio",
-          "href": "https://www.w3.org/TR/SVG/coords.html#PreserveAspectRatioAttribute"
+          "spec": "https://www.w3.org/TR/SVG/coords.html#PreserveAspectRatioAttribute",
+          "description": "The **`preserveAspectRatio`** attribute indicates how an element with a viewBox providing a given aspect ratio must fit into a viewport with a different aspect ratio."
         },
         {
           "name": "refX",
@@ -355,28 +353,26 @@
         },
         {
           "name": "refY",
-          "href": "https://www.w3.org/TR/SVG/painting.html#MarkerElementRefYAttribute",
-          "description": null
+          "href": "https://www.w3.org/TR/SVG/painting.html#MarkerElementRefYAttribute"
         },
         {
           "name": "markerUnits",
           "href": "https://www.w3.org/TR/SVG/painting.html#MarkerUnitsAttribute",
-          "description": "The `markerUnits` attribute defines the coordinate system for the attributes `[markerWidth](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/markerWidth)`, `[markerHeight](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/markerHeight)` and the contents of the [`<marker>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/marker \"The <marker> element defines the graphics that is to be used for drawing arrowheads or polymarkers on a given <path>, <line>, <polyline> or <polygon> element.\")."
+          "description": "The `markerUnits` attribute defines the coordinate system for the attributes `[markerWidth](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/markerWidth)`, `[markerHeight](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/markerHeight)` and the contents of the [`<marker>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/marker \"The <marker> element defines the graphic that is to be used for drawing arrowheads or polymarkers on a given <path>, <line>, <polyline> or <polygon> element.\")."
         },
         {
           "name": "markerWidth",
           "href": "https://www.w3.org/TR/SVG/painting.html#MarkerWidthAttribute",
-          "description": "The `markerWidth` represents the width of the viewport into which the [`<marker>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/marker \"The <marker> element defines the graphics that is to be used for drawing arrowheads or polymarkers on a given <path>, <line>, <polyline> or <polygon> element.\") is to be fitted when it is rendered."
+          "description": "The `markerWidth` represents the width of the viewport into which the [`<marker>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/marker \"The <marker> element defines the graphic that is to be used for drawing arrowheads or polymarkers on a given <path>, <line>, <polyline> or <polygon> element.\") is to be fitted when it is rendered."
         },
         {
           "name": "markerHeight",
           "href": "https://www.w3.org/TR/SVG/painting.html#MarkerHeightAttribute",
-          "description": "The `markerHeight` represents the height of the viewport into which the [`<marker>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/marker \"The <marker> element defines the graphics that is to be used for drawing arrowheads or polymarkers on a given <path>, <line>, <polyline> or <polygon> element.\") is to be fitted when it is rendered."
+          "description": "The `markerHeight` represents the height of the viewport into which the [`<marker>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/marker \"The <marker> element defines the graphic that is to be used for drawing arrowheads or polymarkers on a given <path>, <line>, <polyline> or <polygon> element.\") is to be fitted when it is rendered."
         },
         {
           "name": "orient",
-          "href": "https://www.w3.org/TR/SVG/painting.html#OrientAttribute",
-          "description": null
+          "href": "https://www.w3.org/TR/SVG/painting.html#OrientAttribute"
         }
       ],
       "attributeCategories": [
@@ -389,7 +385,7 @@
     },
     {
       "name": "metadata",
-      "href": "https://www.w3.org/TR/SVG/struct.html#MetadataElement",
+      "spec": "https://www.w3.org/TR/SVG/struct.html#MetadataElement",
       "attributes": [],
       "attributeCategories": [
         "core",
@@ -400,11 +396,12 @@
     },
     {
       "name": "path",
-      "href": "https://www.w3.org/TR/SVG/paths.html#PathElement",
+      "spec": "https://www.w3.org/TR/SVG/paths.html#PathElement",
       "attributes": [
         {
           "name": "pathLength",
-          "href": "https://www.w3.org/TR/SVG/paths.html#PathLengthAttribute"
+          "spec": "https://www.w3.org/TR/SVG/paths.html#PathLengthAttribute",
+          "description": "The **`pathLength`** attribute lets authors specify a total length for the path, in user units. This value is then used to calibrate the browser's distance calculations with those of the author, by scaling all distance computations using the ratio `pathLength`/(_computed value of path length_)."
         }
       ],
       "attributeCategories": [
@@ -420,15 +417,17 @@
     },
     {
       "name": "pattern",
-      "href": "https://www.w3.org/TR/SVG/pservers.html#PatternElement",
+      "spec": "https://www.w3.org/TR/SVG/pservers.html#PatternElement",
       "attributes": [
         {
           "name": "viewBox",
-          "href": "https://www.w3.org/TR/SVG/coords.html#ViewBoxAttribute"
+          "spec": "https://www.w3.org/TR/SVG/coords.html#ViewBoxAttribute",
+          "description": "The **`viewBox`** attribute defines the position and dimension, in user space, of an SVG viewport."
         },
         {
           "name": "preserveAspectRatio",
-          "href": "https://www.w3.org/TR/SVG/coords.html#PreserveAspectRatioAttribute"
+          "spec": "https://www.w3.org/TR/SVG/coords.html#PreserveAspectRatioAttribute",
+          "description": "The **`preserveAspectRatio`** attribute indicates how an element with a viewBox providing a given aspect ratio must fit into a viewport with a different aspect ratio."
         },
         {
           "name": "x",
@@ -478,11 +477,12 @@
     },
     {
       "name": "polygon",
-      "href": "https://www.w3.org/TR/SVG/shapes.html#PolygonElement",
+      "spec": "https://www.w3.org/TR/SVG/shapes.html#PolygonElement",
       "attributes": [
         {
           "name": "pathLength",
-          "href": "https://www.w3.org/TR/SVG/paths.html#PathLengthAttribute"
+          "spec": "https://www.w3.org/TR/SVG/paths.html#PathLengthAttribute",
+          "description": "The **`pathLength`** attribute lets authors specify a total length for the path, in user units. This value is then used to calibrate the browser's distance calculations with those of the author, by scaling all distance computations using the ratio `pathLength`/(_computed value of path length_)."
         },
         {
           "name": "points",
@@ -503,11 +503,12 @@
     },
     {
       "name": "polyline",
-      "href": "https://www.w3.org/TR/SVG/shapes.html#PolylineElement",
+      "spec": "https://www.w3.org/TR/SVG/shapes.html#PolylineElement",
       "attributes": [
         {
           "name": "pathLength",
-          "href": "https://www.w3.org/TR/SVG/paths.html#PathLengthAttribute"
+          "spec": "https://www.w3.org/TR/SVG/paths.html#PathLengthAttribute",
+          "description": "The **`pathLength`** attribute lets authors specify a total length for the path, in user units. This value is then used to calibrate the browser's distance calculations with those of the author, by scaling all distance computations using the ratio `pathLength`/(_computed value of path length_)."
         },
         {
           "name": "points",
@@ -527,7 +528,7 @@
     },
     {
       "name": "radialGradient",
-      "href": "https://www.w3.org/TR/SVG/pservers.html#RadialGradientElement",
+      "spec": "https://www.w3.org/TR/SVG/pservers.html#RadialGradientElement",
       "attributes": [
         {
           "name": "cx",
@@ -587,11 +588,12 @@
     },
     {
       "name": "rect",
-      "href": "https://www.w3.org/TR/SVG/shapes.html#RectElement",
+      "spec": "https://www.w3.org/TR/SVG/shapes.html#RectElement",
       "attributes": [
         {
           "name": "pathLength",
-          "href": "https://www.w3.org/TR/SVG/paths.html#PathLengthAttribute"
+          "spec": "https://www.w3.org/TR/SVG/paths.html#PathLengthAttribute",
+          "description": "The **`pathLength`** attribute lets authors specify a total length for the path, in user units. This value is then used to calibrate the browser's distance calculations with those of the author, by scaling all distance computations using the ratio `pathLength`/(_computed value of path length_)."
         }
       ],
       "attributeCategories": [
@@ -607,7 +609,7 @@
     },
     {
       "name": "script",
-      "href": "https://www.w3.org/TR/SVG/interact.html#ScriptElement",
+      "spec": "https://www.w3.org/TR/SVG/interact.html#ScriptElement",
       "attributes": [
         {
           "name": "type",
@@ -632,12 +634,12 @@
     },
     {
       "name": "stop",
-      "href": "https://www.w3.org/TR/SVG/pservers.html#StopElement",
+      "spec": "https://www.w3.org/TR/SVG/pservers.html#StopElement",
       "attributes": [
         {
           "name": "offset",
           "href": "https://www.w3.org/TR/SVG/pservers.html#StopElementOffsetAttribute",
-          "description": null
+          "description": "The **`offset`** CSS property is a shorthand property for animating an element along a defined path."
         }
       ],
       "attributeCategories": [
@@ -650,7 +652,7 @@
     },
     {
       "name": "style",
-      "href": "https://www.w3.org/TR/SVG/styling.html#StyleElement",
+      "spec": "https://www.w3.org/TR/SVG/styling.html#StyleElement",
       "attributes": [
         {
           "name": "type",
@@ -659,12 +661,11 @@
         {
           "name": "media",
           "href": "https://www.w3.org/TR/SVG/styling.html#StyleElementMediaAttribute",
-          "description": null
+          "description": "REDIRECT [@media \\[en-US\\]](https://developer.mozilla.org/en-US/docs/Web/CSS/@media)"
         },
         {
           "name": "title",
-          "href": "https://www.w3.org/TR/SVG/styling.html#StyleElementTitleAttribute",
-          "description": null
+          "href": "https://www.w3.org/TR/SVG/styling.html#StyleElementTitleAttribute"
         }
       ],
       "attributeCategories": [
@@ -676,19 +677,21 @@
     },
     {
       "name": "svg",
-      "href": "https://www.w3.org/TR/SVG/struct.html#SVGElement",
+      "spec": "https://www.w3.org/TR/SVG/struct.html#SVGElement",
       "attributes": [
         {
           "name": "viewBox",
-          "href": "https://www.w3.org/TR/SVG/coords.html#ViewBoxAttribute"
+          "spec": "https://www.w3.org/TR/SVG/coords.html#ViewBoxAttribute",
+          "description": "The **`viewBox`** attribute defines the position and dimension, in user space, of an SVG viewport."
         },
         {
           "name": "preserveAspectRatio",
-          "href": "https://www.w3.org/TR/SVG/coords.html#PreserveAspectRatioAttribute"
+          "spec": "https://www.w3.org/TR/SVG/coords.html#PreserveAspectRatioAttribute",
+          "description": "The **`preserveAspectRatio`** attribute indicates how an element with a viewBox providing a given aspect ratio must fit into a viewport with a different aspect ratio."
         },
         {
           "name": "zoomAndPan",
-          "href": "https://www.w3.org/TR/SVG/interact.html#ZoomAndPanAttribute"
+          "spec": "https://www.w3.org/TR/SVG/interact.html#ZoomAndPanAttribute"
         },
         {
           "name": "transform",
@@ -710,7 +713,7 @@
     },
     {
       "name": "switch",
-      "href": "https://www.w3.org/TR/SVG/struct.html#SwitchElement",
+      "spec": "https://www.w3.org/TR/SVG/struct.html#SwitchElement",
       "attributes": [],
       "attributeCategories": [
         "aria",
@@ -725,15 +728,17 @@
     },
     {
       "name": "symbol",
-      "href": "https://www.w3.org/TR/SVG/struct.html#SymbolElement",
+      "spec": "https://www.w3.org/TR/SVG/struct.html#SymbolElement",
       "attributes": [
         {
           "name": "preserveAspectRatio",
-          "href": "https://www.w3.org/TR/SVG/coords.html#PreserveAspectRatioAttribute"
+          "spec": "https://www.w3.org/TR/SVG/coords.html#PreserveAspectRatioAttribute",
+          "description": "The **`preserveAspectRatio`** attribute indicates how an element with a viewBox providing a given aspect ratio must fit into a viewport with a different aspect ratio."
         },
         {
           "name": "viewBox",
-          "href": "https://www.w3.org/TR/SVG/coords.html#ViewBoxAttribute"
+          "spec": "https://www.w3.org/TR/SVG/coords.html#ViewBoxAttribute",
+          "description": "The **`viewBox`** attribute defines the position and dimension, in user space, of an SVG viewport."
         },
         {
           "name": "refX",
@@ -756,11 +761,12 @@
     },
     {
       "name": "text",
-      "href": "https://www.w3.org/TR/SVG/text.html#TextElement",
+      "spec": "https://www.w3.org/TR/SVG/text.html#TextElement",
       "attributes": [
         {
           "name": "lengthAdjust",
-          "href": "https://www.w3.org/TR/SVG/text.html#TextElementLengthAdjustAttribute"
+          "spec": "https://www.w3.org/TR/SVG/text.html#TextElementLengthAdjustAttribute",
+          "description": "When an SVG `<text>`  or `<tspan>` element has a specific length, set using the `textLength` attribute, the `lengthAdjust` attribute controls how the text is stretched or compressed into that length."
         },
         {
           "name": "x",
@@ -800,20 +806,21 @@
     },
     {
       "name": "textPath",
-      "href": "https://www.w3.org/TR/SVG/text.html#TextPathElement",
+      "spec": "https://www.w3.org/TR/SVG/text.html#TextPathElement",
       "attributes": [
         {
           "name": "lengthAdjust",
-          "href": "https://www.w3.org/TR/SVG/text.html#TextElementLengthAdjustAttribute"
+          "spec": "https://www.w3.org/TR/SVG/text.html#TextElementLengthAdjustAttribute",
+          "description": "When an SVG `<text>`  or `<tspan>` element has a specific length, set using the `textLength` attribute, the `lengthAdjust` attribute controls how the text is stretched or compressed into that length."
         },
         {
           "name": "textLength",
-          "href": "https://www.w3.org/TR/SVG/text.html#TextElementTextLengthAttribute"
+          "spec": "https://www.w3.org/TR/SVG/text.html#TextElementTextLengthAttribute",
+          "description": "The `textLength` attribute, available on SVG [`<text>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/text \"The SVG <text> element defines a graphics element consisting of text. It's possible to apply a gradient, pattern, clipping path, mask, or filter to <text>, just like any other SVG graphics element.\") and [`<tspan>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/tspan \"Within a <text> element, text and font properties and the current text position can be adjusted with absolute or relative coordinate values by including a <tspan> element.\") elements,  lets you specify the width of the space into which the text will draw. The [user agent](https://developer.mozilla.org/en-US/docs/Glossary/user_agent \"user agent: A user agent is a computer program representing a person, for example, a browser in a Web context.\") will ensure that the text does not extend farther than that distance, using the method or methods specified by the `[lengthAdjust](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/lengthAdjust)` attribute. By default, only the spacing between characters is adjusted, but the glyph size can also be adjusted if you change `lengthAdjust`."
         },
         {
           "name": "path",
-          "href": "https://www.w3.org/TR/SVG/text.html#TextPathElementPathAttribute",
-          "description": null
+          "href": "https://www.w3.org/TR/SVG/text.html#TextPathElementPathAttribute"
         },
         {
           "name": "href",
@@ -821,23 +828,19 @@
         },
         {
           "name": "startOffset",
-          "href": "https://www.w3.org/TR/SVG/text.html#TextPathElementStartOffsetAttribute",
-          "description": null
+          "href": "https://www.w3.org/TR/SVG/text.html#TextPathElementStartOffsetAttribute"
         },
         {
           "name": "method",
-          "href": "https://www.w3.org/TR/SVG/text.html#TextPathElementMethodAttribute",
-          "description": null
+          "href": "https://www.w3.org/TR/SVG/text.html#TextPathElementMethodAttribute"
         },
         {
           "name": "spacing",
-          "href": "https://www.w3.org/TR/SVG/text.html#TextPathElementSpacingAttribute",
-          "description": null
+          "href": "https://www.w3.org/TR/SVG/text.html#TextPathElementSpacingAttribute"
         },
         {
           "name": "side",
-          "href": "https://www.w3.org/TR/SVG/text.html#TextPathElementSideAttribute",
-          "description": null
+          "href": "https://www.w3.org/TR/SVG/text.html#TextPathElementSideAttribute"
         }
       ],
       "attributeCategories": [
@@ -854,7 +857,7 @@
     },
     {
       "name": "title",
-      "href": "https://www.w3.org/TR/SVG/struct.html#TitleElement",
+      "spec": "https://www.w3.org/TR/SVG/struct.html#TitleElement",
       "attributes": [],
       "attributeCategories": [
         "core",
@@ -865,35 +868,42 @@
     },
     {
       "name": "tspan",
-      "href": "https://www.w3.org/TR/SVG/text.html#TextElement",
+      "spec": "https://www.w3.org/TR/SVG/text.html#TextElement",
       "attributes": [
         {
           "name": "x",
-          "href": "https://www.w3.org/TR/SVG/text.html#TextElementXAttribute"
+          "spec": "https://www.w3.org/TR/SVG/text.html#TextElementXAttribute",
+          "description": "The **`x`** attribute defines a x-axis coordinate in the user coordinate system."
         },
         {
           "name": "y",
-          "href": "https://www.w3.org/TR/SVG/text.html#TextElementYAttribute"
+          "spec": "https://www.w3.org/TR/SVG/text.html#TextElementYAttribute",
+          "description": "The **`y`** attribute defines a y-axis coordinate in the user coordinate system."
         },
         {
           "name": "dx",
-          "href": "https://www.w3.org/TR/SVG/text.html#TextElementDXAttribute"
+          "spec": "https://www.w3.org/TR/SVG/text.html#TextElementDXAttribute",
+          "description": "The **`dx`** attribute indicates a shift along the x-axis on the position of an element or its content."
         },
         {
           "name": "dy",
-          "href": "https://www.w3.org/TR/SVG/text.html#TextElementDYAttribute"
+          "spec": "https://www.w3.org/TR/SVG/text.html#TextElementDYAttribute",
+          "description": "The **`dy`** attribute indicates a shift along the y-axis on the position of an element or its content."
         },
         {
           "name": "rotate",
-          "href": "https://www.w3.org/TR/SVG/text.html#TextElementRotateAttribute"
+          "spec": "https://www.w3.org/TR/SVG/text.html#TextElementRotateAttribute",
+          "description": "The **`rotate`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property allows you to specify rotation transforms individually and independantly of the [`transform`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform \"The transform CSS property lets you rotate, scale, skew, or translate an element. It modifies the coordinate space of the CSS visual formatting model.\") property. This maps better to typical user interface usage, and saves having to remember the exact order of transform functions to specify in the `transform` value."
         },
         {
           "name": "textLength",
-          "href": "https://www.w3.org/TR/SVG/text.html#TextElementTextLengthAttribute"
+          "spec": "https://www.w3.org/TR/SVG/text.html#TextElementTextLengthAttribute",
+          "description": "The `textLength` attribute, available on SVG [`<text>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/text \"The SVG <text> element defines a graphics element consisting of text. It's possible to apply a gradient, pattern, clipping path, mask, or filter to <text>, just like any other SVG graphics element.\") and [`<tspan>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/tspan \"Within a <text> element, text and font properties and the current text position can be adjusted with absolute or relative coordinate values by including a <tspan> element.\") elements,  lets you specify the width of the space into which the text will draw. The [user agent](https://developer.mozilla.org/en-US/docs/Glossary/user_agent \"user agent: A user agent is a computer program representing a person, for example, a browser in a Web context.\") will ensure that the text does not extend farther than that distance, using the method or methods specified by the `[lengthAdjust](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/lengthAdjust)` attribute. By default, only the spacing between characters is adjusted, but the glyph size can also be adjusted if you change `lengthAdjust`."
         },
         {
           "name": "lengthAdjust",
-          "href": "https://www.w3.org/TR/SVG/text.html#TextElementLengthAdjustAttribute"
+          "spec": "https://www.w3.org/TR/SVG/text.html#TextElementLengthAdjustAttribute",
+          "description": "When an SVG `<text>`  or `<tspan>` element has a specific length, set using the `textLength` attribute, the `lengthAdjust` attribute controls how the text is stretched or compressed into that length."
         }
       ],
       "attributeCategories": [
@@ -909,7 +919,7 @@
     },
     {
       "name": "use",
-      "href": "https://www.w3.org/TR/SVG/struct.html#UseElement",
+      "spec": "https://www.w3.org/TR/SVG/struct.html#UseElement",
       "attributes": [
         {
           "name": "href",
@@ -930,7 +940,7 @@
     },
     {
       "name": "video",
-      "href": "https://www.w3.org/TR/SVG/embedded.html#HTMLElements",
+      "spec": "https://www.w3.org/TR/SVG/embedded.html#HTMLElements",
       "attributes": [],
       "attributeCategories": [
         "aria",
@@ -945,19 +955,21 @@
     },
     {
       "name": "view",
-      "href": "https://www.w3.org/TR/SVG/linking.html#ViewElement",
+      "spec": "https://www.w3.org/TR/SVG/linking.html#ViewElement",
       "attributes": [
         {
           "name": "viewBox",
-          "href": "https://www.w3.org/TR/SVG/coords.html#ViewBoxAttribute"
+          "spec": "https://www.w3.org/TR/SVG/coords.html#ViewBoxAttribute",
+          "description": "The **`viewBox`** attribute defines the position and dimension, in user space, of an SVG viewport."
         },
         {
           "name": "preserveAspectRatio",
-          "href": "https://www.w3.org/TR/SVG/coords.html#PreserveAspectRatioAttribute"
+          "spec": "https://www.w3.org/TR/SVG/coords.html#PreserveAspectRatioAttribute",
+          "description": "The **`preserveAspectRatio`** attribute indicates how an element with a viewBox providing a given aspect ratio must fit into a viewport with a different aspect ratio."
         },
         {
           "name": "zoomAndPan",
-          "href": "https://www.w3.org/TR/SVG/interact.html#ZoomAndPanAttribute"
+          "spec": "https://www.w3.org/TR/SVG/interact.html#ZoomAndPanAttribute"
         }
       ],
       "attributeCategories": [
@@ -972,57 +984,56 @@
   "globalAttributes": [
     {
       "name": "x",
-      "href": "https://www.w3.org/TR/SVG/text.html#TextElementXAttribute",
+      "spec": "https://www.w3.org/TR/SVG/text.html#TextElementXAttribute",
       "description": "The **`x`** attribute defines a x-axis coordinate in the user coordinate system."
     },
     {
       "name": "y",
-      "href": "https://www.w3.org/TR/SVG/text.html#TextElementYAttribute",
+      "spec": "https://www.w3.org/TR/SVG/text.html#TextElementYAttribute",
       "description": "The **`y`** attribute defines a y-axis coordinate in the user coordinate system."
     },
     {
       "name": "dx",
-      "href": "https://www.w3.org/TR/SVG/text.html#TextElementDXAttribute",
+      "spec": "https://www.w3.org/TR/SVG/text.html#TextElementDXAttribute",
       "description": "The **`dx`** attribute indicates a shift along the x-axis on the position of an element or its content."
     },
     {
       "name": "dy",
-      "href": "https://www.w3.org/TR/SVG/text.html#TextElementDYAttribute",
+      "spec": "https://www.w3.org/TR/SVG/text.html#TextElementDYAttribute",
       "description": "The **`dy`** attribute indicates a shift along the y-axis on the position of an element or its content."
     },
     {
       "name": "rotate",
-      "href": "https://www.w3.org/TR/SVG/text.html#TextElementRotateAttribute",
-      "description": null
+      "spec": "https://www.w3.org/TR/SVG/text.html#TextElementRotateAttribute",
+      "description": "The **`rotate`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property allows you to specify rotation transforms individually and independantly of the [`transform`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform \"The transform CSS property lets you rotate, scale, skew, or translate an element. It modifies the coordinate space of the CSS visual formatting model.\") property. This maps better to typical user interface usage, and saves having to remember the exact order of transform functions to specify in the `transform` value."
     },
     {
       "name": "textLength",
-      "href": "https://www.w3.org/TR/SVG/text.html#TextElementTextLengthAttribute",
+      "spec": "https://www.w3.org/TR/SVG/text.html#TextElementTextLengthAttribute",
       "description": "The `textLength` attribute, available on SVG [`<text>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/text \"The SVG <text> element defines a graphics element consisting of text. It's possible to apply a gradient, pattern, clipping path, mask, or filter to <text>, just like any other SVG graphics element.\") and [`<tspan>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/tspan \"Within a <text> element, text and font properties and the current text position can be adjusted with absolute or relative coordinate values by including a <tspan> element.\") elements,  lets you specify the width of the space into which the text will draw. The [user agent](https://developer.mozilla.org/en-US/docs/Glossary/user_agent \"user agent: A user agent is a computer program representing a person, for example, a browser in a Web context.\") will ensure that the text does not extend farther than that distance, using the method or methods specified by the `[lengthAdjust](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/lengthAdjust)` attribute. By default, only the spacing between characters is adjusted, but the glyph size can also be adjusted if you change `lengthAdjust`."
     },
     {
       "name": "lengthAdjust",
-      "href": "https://www.w3.org/TR/SVG/text.html#TextElementLengthAdjustAttribute",
+      "spec": "https://www.w3.org/TR/SVG/text.html#TextElementLengthAdjustAttribute",
       "description": "When an SVG `<text>`  or `<tspan>` element has a specific length, set using the `textLength` attribute, the `lengthAdjust` attribute controls how the text is stretched or compressed into that length."
     },
     {
       "name": "viewBox",
-      "href": "https://www.w3.org/TR/SVG/coords.html#ViewBoxAttribute",
+      "spec": "https://www.w3.org/TR/SVG/coords.html#ViewBoxAttribute",
       "description": "The **`viewBox`** attribute defines the position and dimension, in user space, of an SVG viewport."
     },
     {
       "name": "preserveAspectRatio",
-      "href": "https://www.w3.org/TR/SVG/coords.html#PreserveAspectRatioAttribute",
+      "spec": "https://www.w3.org/TR/SVG/coords.html#PreserveAspectRatioAttribute",
       "description": "The **`preserveAspectRatio`** attribute indicates how an element with a viewBox providing a given aspect ratio must fit into a viewport with a different aspect ratio."
     },
     {
       "name": "zoomAndPan",
-      "href": "https://www.w3.org/TR/SVG/interact.html#ZoomAndPanAttribute",
-      "description": null
+      "spec": "https://www.w3.org/TR/SVG/interact.html#ZoomAndPanAttribute"
     },
     {
       "name": "pathLength",
-      "href": "https://www.w3.org/TR/SVG/paths.html#PathLengthAttribute",
+      "spec": "https://www.w3.org/TR/SVG/paths.html#PathLengthAttribute",
       "description": "The **`pathLength`** attribute lets authors specify a total length for the path, in user units. This value is then used to calibrate the browser's distance calculations with those of the author, by scaling all distance computations using the ratio `pathLength`/(_computed value of path length_)."
     },
     {
@@ -1032,28 +1043,23 @@
     },
     {
       "name": "target",
-      "href": "https://www.w3.org/TR/SVG/linking.html#AElementTargetAttribute",
-      "description": null
+      "href": "https://www.w3.org/TR/SVG/linking.html#AElementTargetAttribute"
     },
     {
       "name": "download",
-      "href": "https://www.w3.org/TR/SVG/linking.html#AElementDownloadAttribute",
-      "description": null
+      "href": "https://www.w3.org/TR/SVG/linking.html#AElementDownloadAttribute"
     },
     {
       "name": "ping",
-      "href": "https://www.w3.org/TR/SVG/linking.html#AElementPingAttribute",
-      "description": null
+      "href": "https://www.w3.org/TR/SVG/linking.html#AElementPingAttribute"
     },
     {
       "name": "rel",
-      "href": "https://www.w3.org/TR/SVG/linking.html#AElementRelAttribute",
-      "description": null
+      "href": "https://www.w3.org/TR/SVG/linking.html#AElementRelAttribute"
     },
     {
       "name": "hreflang",
-      "href": "https://www.w3.org/TR/SVG/linking.html#AElementHreflangAttribute",
-      "description": null
+      "href": "https://www.w3.org/TR/SVG/linking.html#AElementHreflangAttribute"
     },
     {
       "name": "type",
@@ -1062,13 +1068,11 @@
     },
     {
       "name": "referrerpolicy",
-      "href": "https://www.w3.org/TR/SVG/linking.html#AElementReferrerpolicyAttribute",
-      "description": null
+      "href": "https://www.w3.org/TR/SVG/linking.html#AElementReferrerpolicyAttribute"
     },
     {
       "name": "crossorigin",
-      "href": "https://www.w3.org/TR/SVG/embedded.html#ImageElementCrossoriginAttribute",
-      "description": null
+      "href": "https://www.w3.org/TR/SVG/embedded.html#ImageElementCrossoriginAttribute"
     },
     {
       "name": "x1",
@@ -1112,28 +1116,26 @@
     },
     {
       "name": "refY",
-      "href": "https://www.w3.org/TR/SVG/painting.html#MarkerElementRefYAttribute",
-      "description": null
+      "href": "https://www.w3.org/TR/SVG/painting.html#MarkerElementRefYAttribute"
     },
     {
       "name": "markerUnits",
       "href": "https://www.w3.org/TR/SVG/painting.html#MarkerUnitsAttribute",
-      "description": "The `markerUnits` attribute defines the coordinate system for the attributes `[markerWidth](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/markerWidth)`, `[markerHeight](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/markerHeight)` and the contents of the [`<marker>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/marker \"The <marker> element defines the graphics that is to be used for drawing arrowheads or polymarkers on a given <path>, <line>, <polyline> or <polygon> element.\")."
+      "description": "The `markerUnits` attribute defines the coordinate system for the attributes `[markerWidth](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/markerWidth)`, `[markerHeight](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/markerHeight)` and the contents of the [`<marker>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/marker \"The <marker> element defines the graphic that is to be used for drawing arrowheads or polymarkers on a given <path>, <line>, <polyline> or <polygon> element.\")."
     },
     {
       "name": "markerWidth",
       "href": "https://www.w3.org/TR/SVG/painting.html#MarkerWidthAttribute",
-      "description": "The `markerWidth` represents the width of the viewport into which the [`<marker>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/marker \"The <marker> element defines the graphics that is to be used for drawing arrowheads or polymarkers on a given <path>, <line>, <polyline> or <polygon> element.\") is to be fitted when it is rendered."
+      "description": "The `markerWidth` represents the width of the viewport into which the [`<marker>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/marker \"The <marker> element defines the graphic that is to be used for drawing arrowheads or polymarkers on a given <path>, <line>, <polyline> or <polygon> element.\") is to be fitted when it is rendered."
     },
     {
       "name": "markerHeight",
       "href": "https://www.w3.org/TR/SVG/painting.html#MarkerHeightAttribute",
-      "description": "The `markerHeight` represents the height of the viewport into which the [`<marker>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/marker \"The <marker> element defines the graphics that is to be used for drawing arrowheads or polymarkers on a given <path>, <line>, <polyline> or <polygon> element.\") is to be fitted when it is rendered."
+      "description": "The `markerHeight` represents the height of the viewport into which the [`<marker>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/marker \"The <marker> element defines the graphic that is to be used for drawing arrowheads or polymarkers on a given <path>, <line>, <polyline> or <polygon> element.\") is to be fitted when it is rendered."
     },
     {
       "name": "orient",
-      "href": "https://www.w3.org/TR/SVG/painting.html#OrientAttribute",
-      "description": null
+      "href": "https://www.w3.org/TR/SVG/painting.html#OrientAttribute"
     },
     {
       "name": "width",
@@ -1198,17 +1200,16 @@
     {
       "name": "offset",
       "href": "https://www.w3.org/TR/SVG/pservers.html#StopElementOffsetAttribute",
-      "description": null
+      "description": "The **`offset`** CSS property is a shorthand property for animating an element along a defined path."
     },
     {
       "name": "media",
       "href": "https://www.w3.org/TR/SVG/styling.html#StyleElementMediaAttribute",
-      "description": null
+      "description": "REDIRECT [@media \\[en-US\\]](https://developer.mozilla.org/en-US/docs/Web/CSS/@media)"
     },
     {
       "name": "title",
-      "href": "https://www.w3.org/TR/SVG/styling.html#StyleElementTitleAttribute",
-      "description": null
+      "href": "https://www.w3.org/TR/SVG/styling.html#StyleElementTitleAttribute"
     },
     {
       "name": "transform",
@@ -1217,28 +1218,23 @@
     },
     {
       "name": "path",
-      "href": "https://www.w3.org/TR/SVG/text.html#TextPathElementPathAttribute",
-      "description": null
+      "href": "https://www.w3.org/TR/SVG/text.html#TextPathElementPathAttribute"
     },
     {
       "name": "startOffset",
-      "href": "https://www.w3.org/TR/SVG/text.html#TextPathElementStartOffsetAttribute",
-      "description": null
+      "href": "https://www.w3.org/TR/SVG/text.html#TextPathElementStartOffsetAttribute"
     },
     {
       "name": "method",
-      "href": "https://www.w3.org/TR/SVG/text.html#TextPathElementMethodAttribute",
-      "description": null
+      "href": "https://www.w3.org/TR/SVG/text.html#TextPathElementMethodAttribute"
     },
     {
       "name": "spacing",
-      "href": "https://www.w3.org/TR/SVG/text.html#TextPathElementSpacingAttribute",
-      "description": null
+      "href": "https://www.w3.org/TR/SVG/text.html#TextPathElementSpacingAttribute"
     },
     {
       "name": "side",
-      "href": "https://www.w3.org/TR/SVG/text.html#TextPathElementSideAttribute",
-      "description": null
+      "href": "https://www.w3.org/TR/SVG/text.html#TextPathElementSideAttribute"
     }
   ]
 }
