@@ -11,6 +11,12 @@
         "**/data/svg-css-contribution.json"
       ],
       "url": "./schema/css.json"
+    },
+    {
+      "fileMatch": [
+        "**/data/svg-html-contribution.json"
+      ],
+      "url": "./schema/html.json"
     }
   ]
 }

@@ -17,6 +17,99 @@
           "name": {
             "type": "string"
           },
+          "description": {
+            "type": "string"
+          },
+          "spec": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          },
+          "browsers": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "atDirectives": {
+      "description": "Custom CSS at directives",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "spec": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          },
+          "browsers": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "pseudoClasses": {
+      "description": "Custom CSS pseudo classes",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "spec": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          },
+          "browsers": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "pseudoElements": {
+      "description": "Custom CSS pseudo elements",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
           "spec": {
             "type": "string"
           },
