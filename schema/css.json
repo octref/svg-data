@@ -5,6 +5,10 @@
   "description": "Format for loading Custom Data in VS Code's CSS support",
   "type": "object",
   "properties": {
+    "version": {
+      "description": "The custom data version",
+      "type": "number"
+    },
     "properties": {
       "description": "Custom CSS properties",
       "type": "array",
