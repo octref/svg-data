@@ -22,6 +22,25 @@ The data are pulled from:
 - [HTML Custom Data](https://github.com/Microsoft/vscode-html-languageservice/blob/master/docs/customData.md)
 - [CSS Custom Data](https://github.com/Microsoft/vscode-css-languageservice/blob/master/docs/customData.md)
 
+## Settings
+
+This setting checks the custom data against latest schema:
+
+```json
+{
+  "json.schemas": [
+    {
+      "fileMatch": ["/data/svg-html-contribution.json"],
+      "url": "https://raw.githubusercontent.com/Microsoft/vscode-html-languageservice/master/docs/customData.schema.json"
+    },
+    {
+      "fileMatch": ["/data/svg-css-contribution.json"],
+      "url": "https://raw.githubusercontent.com/Microsoft/vscode-css-languageservice/master/docs/customData.schema.json"
+    }
+  ]
+}
+```
+
 ## License
 
 MIT

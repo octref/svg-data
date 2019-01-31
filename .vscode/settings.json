@@ -1,22 +1,14 @@
 {
-  "html.experimental.customData": [
-    "./data/svg-html-contribution.json"
-  ],
-  "css.experimental.customData": [
-    "./data/svg-css-contribution.json"
-  ],
+  "html.experimental.customData": ["./data/svg-html-contribution.json"],
+  "css.experimental.customData": ["./data/svg-css-contribution.json"],
   "json.schemas": [
     {
-      "fileMatch": [
-        "**/data/svg-css-contribution.json"
-      ],
-      "url": "./schema/css.json"
+      "fileMatch": ["/data/svg-html-contribution.json"],
+      "url": "https://raw.githubusercontent.com/Microsoft/vscode-html-languageservice/master/docs/customData.schema.json"
     },
     {
-      "fileMatch": [
-        "**/data/svg-html-contribution.json"
-      ],
-      "url": "./schema/html.json"
+      "fileMatch": ["/data/svg-css-contribution.json"],
+      "url": "https://raw.githubusercontent.com/Microsoft/vscode-css-languageservice/master/docs/customData.schema.json"
     }
   ]
 }
