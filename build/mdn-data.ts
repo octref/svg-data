@@ -12,7 +12,7 @@ export function addMDNData(property: Partial<CSSProperty>) {
     property.status = getPropertyStatus(property.name)
   }
   if (getPropertySyntax(property.name)) {
-    property.status = getPropertySyntax(property.name)
+    property.syntax = getPropertySyntax(property.name)
   }
   if (getPropertyBrowsers(property.name)) {
     property.browsers = getPropertyBrowsers(property.name)
