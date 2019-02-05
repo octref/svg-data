@@ -5,24 +5,24 @@ const DEFINITION_PATH = path.resolve(__dirname, '../node_modules/svgwg/master/de
 
 import * as cheerio from 'cheerio'
 
-interface Element {
+export interface HTMLElement {
   name: string
   spec: string
   description?: string
-  attributes: Attribute[]
+  attributes: HTMLAttribute[]
   attributeCategories: string[]
 }
 
-interface Attribute {
+export interface HTMLAttribute {
   name: string
   spec: string
   description?: string
 }
 
-interface AttributeCategory {
+interface HTMLAttributeCategory {
   name: string
   spec: string
-  attributes: Attribute[]
+  attributes: HTMLAttribute[]
 }
 
 export interface CSSProperty {
@@ -30,9 +30,14 @@ export interface CSSProperty {
   spec: string
   description?: string
   browsers?: string[]
-  status: string
-  syntax: string
+  status?: string
+  syntax?: string
   values?: CSSPropertyValue[]
+}
+
+export interface CSSSpecProperty {
+  name: string
+  spec: string
 }
 
 export interface CSSPropertyValue {
@@ -41,10 +46,10 @@ export interface CSSPropertyValue {
   descriptipn: string
 }
 
-const globalAttributes: Attribute[] = []
-const attributeCategories: AttributeCategory[] = []
-const elements: Element[] = []
-const cssProperties: Partial<CSSProperty>[] = []
+const globalAttributes: HTMLAttribute[] = []
+const attributeCategories: HTMLAttributeCategory[] = []
+const elements: HTMLElement[] = []
+const cssSpecProperties: CSSSpecProperty[] = []
 
 function handleHref(href: string) {
   return href.startsWith('https://') ? href : 'https://www.w3.org/TR/SVG/' + href
@@ -122,7 +127,7 @@ export function getSVGSpec() {
   })
 
   $('property').each((_, e) => {
-    cssProperties.push({
+    cssSpecProperties.push({
       name: e.attribs['name'],
       spec: handleHref(e.attribs['href'])
     })
@@ -131,6 +136,6 @@ export function getSVGSpec() {
   return {
     elements,
     globalAttributes,
-    cssProperties
+    cssSpecProperties
   }
 }

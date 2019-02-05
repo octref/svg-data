@@ -1,22 +1,26 @@
 import * as mdnData from 'mdn-data'
 const bcdData = require('mdn-browser-compat-data')
 
-import { CSSProperty } from './svg-spec';
+import { CSSProperty, CSSSpecProperty } from './svg-spec';
 import { toCompatString, isSupportedInAllBrowsers } from './util';
 
 const properties = mdnData.css.properties
 const bcdProperties = bcdData.css.properties
 
-export function addMDNData(property: Partial<CSSProperty>) {
-  if (getPropertyStatus(property.name)) {
-    property.status = getPropertyStatus(property.name)
+export function addCSSMDNData(specProperty: CSSSpecProperty): CSSProperty {
+  const property: CSSProperty = { ...specProperty }
+
+  if (getPropertyStatus(specProperty.name)) {
+    property.status = getPropertyStatus(specProperty.name)
   }
-  if (getPropertySyntax(property.name)) {
-    property.syntax = getPropertySyntax(property.name)
+  if (getPropertySyntax(specProperty.name)) {
+    property.syntax = getPropertySyntax(specProperty.name)
   }
-  if (getPropertyBrowsers(property.name)) {
-    property.browsers = getPropertyBrowsers(property.name)
+  if (getPropertyBrowsers(specProperty.name)) {
+    property.browsers = getPropertyBrowsers(specProperty.name)
   }
+
+  return property
 }
 
 function getPropertyStatus(name: string) {
