@@ -1266,9 +1266,10 @@ mdn-browser-compat-data@^0.0.61:
   dependencies:
     extend "3.0.2"
 
-mdn-data@mdn/data:
+mdn-data@^2.0.1:
   version "2.0.1"
-  resolved "https://codeload.github.com/mdn/data/tar.gz/46cf898f4258f19e1116bb92b598225171423d1b"
+  resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-2.0.1.tgz#a964990452810468ad581fd0f431250a26951ec8"
+  integrity sha512-7jlEOfHiwOmxZ9Am+OVEAy7oMw2rdt3WJtJ27TL4Ee1vkdWWl+vO4IhsxF+H6c3vXg0TpbyAYOcrv1FLABzKJw==
 
 mime-db@~1.37.0:
   version "1.37.0"
