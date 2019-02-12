@@ -15,7 +15,7 @@ The data are pulled from:
 
 - Open this folder in VS Code 1.31+
 - Try creating a HTML/CSS file and edit in it. You should get SVG tags and attributes in HTML files, and SVG specific CSS properties in CSS files.
-- Look into the `contributes` section of `package.json`. You can package this project into an extension with [`vsce`](https://code.visualstudio.com/api/working-with-extensions/publishing-extension#vsce).
+- ([VS Code Insiders](https://code.visualstudio.com/insiders/) only): Look into the `contributes` section of `package.json`. You can package this project into an extension with [`vsce`](https://code.visualstudio.com/api/working-with-extensions/publishing-extension#vsce). Alternatively, you can download the pre-packaged versions from [releases](https://github.com/octref/svg-data/releases).
 
 ## Docs
 
