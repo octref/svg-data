@@ -80,6 +80,7 @@ async function generateHTMLData() {
   }
 
   const htmlOut = {
+    version: 1,
     tags: elements,
     globalAttributes
   }

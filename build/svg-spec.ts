@@ -1,7 +1,7 @@
 import * as path from 'path'
 import * as fs from 'fs'
 
-const DEFINITION_PATH = path.resolve(__dirname, '../node_modules/svgwg/master/definitions.xml')
+const DEFINITION_PATH = path.resolve(__dirname, '../raw-data/definitions.xml')
 
 import * as cheerio from 'cheerio'
 

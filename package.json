@@ -39,15 +39,12 @@
     "@types/got": "^9.3.0",
     "@types/node": "^10.12.18",
     "cheerio": "^1.0.0-rc.2",
-    "svgwg": "w3c/svgwg",
+    "got": "^9.6.0",
+    "mdn-browser-compat-data": "^0.0.66",
+    "mdn-data": "^2.0.1",
     "tslint": "^5.11.0",
+    "turndown": "^5.0.3",
     "typescript": "^2.6.1",
     "vscode": "^1.1.22"
-  },
-  "dependencies": {
-    "got": "^9.5.1",
-    "mdn-browser-compat-data": "^0.0.61",
-    "mdn-data": "^2.0.1",
-    "turndown": "^5.0.1"
   }
 }
