@@ -2,7 +2,7 @@
   "name": "svg",
   "displayName": "svg",
   "description": "svg",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "publisher": "octref",
   "repository": "https://github.com/Microsoft/vscode-extension-samples/helloworld-sample",
   "license": "MIT",
