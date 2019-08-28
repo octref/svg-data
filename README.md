@@ -1,4 +1,4 @@
-MOVED TO https://github.com/microsoft/vscode-custom-data
+# MOVED TO https://github.com/microsoft/vscode-custom-data
 
 ---
 
