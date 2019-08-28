@@ -1,3 +1,7 @@
+MOVED TO https://github.com/microsoft/vscode-custom-data
+
+---
+
 # SVG Sample
 
 SVG support in HTML/CSS files using plain JSON files.
